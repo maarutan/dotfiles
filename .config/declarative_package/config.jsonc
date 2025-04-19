@@ -15,7 +15,7 @@
 //  ------------------------------------------------
 {
   // Startup
-  "logo_ascii"   : true , // there will be a logo at the beginning. 
+  "logo_ascii"   : false, // there will be a logo at the beginning. 
   "absolute_sync": true , // absolute installation where you clearly specify what to remove and what to install if a package is not in the list, then it will be removed. 
   "relative_sync": false, // Relative package installation it you can determine which packages to install but not remove, If you installed through the carrier option you will have to uninstall manually. 
   "noconfirm"    : true , // If that's true, then the packets will settle without confirmation.  
@@ -56,6 +56,7 @@
         "zoxide",
         "obs-studio",
         "z",
+        "terminus-font",
         "xdg-desktop-portal-hyprland",
         "wlr-randr",
         "wl-clipboard",
@@ -93,7 +94,6 @@
         "zoxide",
         "z",
         "udisks2",
-        "sddm",
         "libnotify",
         "python",
         "btop",

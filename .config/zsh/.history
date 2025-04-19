@@ -130,7 +130,6 @@ nmcli d w list
 nmcli d w connect Lavrovyh\ 14 --ask
 z kitty
 z .config/kitty/
-./start.py
 chown maaru:maaru ./*
 sudo chown maaru:maaru ./*
 sudo chown -R maaru:wheel /home/maaru\
@@ -183,7 +182,6 @@ python3 -u /home/maaru/.config/waybar/modules/player/mediaplayer.py monitor
 source ./.venv/bin/activate
 ...
 cd waybar
-./bar.py -e
 ~/.config/waybar/modules/player/mediaplayer.py next
 \:qa
 python3 -u /home/maaru/.config/waybar/modules/player/mkstyle.py
@@ -243,7 +241,6 @@ git rm --cached 4
 git rm 1
 git rm kamila
 git commit -m "add"
-lt
 lt --level 1
 lt --level 1 -a
 lt --level 3 -a
@@ -616,7 +613,6 @@ git rm --cached logic/__pycache__/ -r\
 3python3 -u /home/maaru/Documents/dotpusher/start.py
 python3 -u /home/maaru/Documents/dotpusher/start.py
 ls
-git add -A . ; git commit -m "update" ; git push
 Ñƒ£
 sudo pacman -S wl-clipboard-history
 sudo pacman -S wl-clip-persist
@@ -629,20 +625,71 @@ python3 -u /home/maaru/.config/rofi/launchers/clipboard/wayland_clipboard.py
 cliphist decode
 paru -S cliphist
 hyprctl workspaces
-clear
 z /home/maaru/.config/rofi/
 
+z script
+chmod +x ./*
+chmod +x ./**
+git add -A . ; git commit -m "update" ; git push
+./start.py
+echo "Welcome, $(whoami)! Today is $(date)."\
+echo "System load: $(uptime | awk '{print $9}')"\
+
+echo "Welcome back, $(whoami)! Last login: $(last -n 1 | awk 'NR==1{print $4, $5, $6, $7}')"\
+echo "System uptime: $(uptime -p)"\
+
+sudo pacman -S ly
+lt
+lyn
+rn
+ly
+sudo systemctl enable ly.service
+sudo systemctl disable sddm
+sudo systemctl stop sddm
+sudo systemctl restart ly.service
+rn /etc/ly/config.ini
+sudo -E nvim /etc/ly/config.ini
+ly-dm
+clear
+z way
+./bar.py -d
+./bar.py -e
+./bar.py -a
 e
-: 1745024084:0;z script
-: 1745024086:0;e
-: 1745024128:0;clear
-: 1745024132:0;e
-: 1745024134:0;./start.py
-: 1745024135:0;e
-: 1745024148:0;chmod +x ./*
-: 1745024150:0;chmod +x ./**
-: 1745024151:0;e
-: 1745024154:0;git add -A . ; git commit -m "update" ; git push
-: 1745024158:0;clear
-: 1745024158:0;e
-: 1745024163:0;./start.py
+: 1745026101:0;sudo systemctl restart ly.service
+: 0:1745026325;
+: 0:1745026325;
+: 1745026347:0;nvim
+: 1745026374:0;rn sudo nano /etc/vconsole.conf\
+
+: 1745026394:0;sudo nvim /etc/vconsole.conf\
+
+: 1745026424:0;decpkg -s
+: 1745026479:0;sudo nvim /etc/vconsole.conf\
+
+: 1745026499:0;reboot
+: 1745026542:0;sudo nvim /etc/ly/config.ini\
+
+: 1745026558:0;sudo systemctl restart ly.service
+: 1745026573:0;e
+: 1745026634:0;nvim /etc/grub
+: 1745026657:0;sudo -e nvim /etc/default/grub
+: 1745026675:0;clear
+: 1745026697:0;grub-mkconfig -o /boot/grub/grub.cfg
+: 1745026700:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1745026704:0;ar
+: 1745026706:0;reboot
+: 1745026750:0;e
+: 1745026765:0;nvim /etc/ly/config.ini
+: 1745026768:0;sudo -e /etc/ly/config.ini
+: 1745026773:0;sudo -e nvim /etc/ly/config.ini
+: 1745026800:0;sudo systemctl restart ly.service
+: 1745026902:0;nvim ~/.inputrc
+: 1745026915:0;sudo systemctl restart ly.service
+: 1745026932:0;rm! ~/.inputrc
+: 1745026940:0;nvim
+: 1745026948:0;decpkg -s
+: 1745026957:0;nvim
+: 1745026992:0;decpkg -s
+: 1745027042:0;e
+: 1745027046:0;./start.py
