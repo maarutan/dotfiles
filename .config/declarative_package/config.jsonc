@@ -39,86 +39,123 @@
   "packages": [
     {
       "pacman": [
+        // Wayland
+        "hyprland",
+        "slurp",
+        "waybar",
+        "wlr-randr",
+        "xdg-desktop-portal-hyprland",
+        "wl-clipboard",
+        "nwg-look",
+        "swww",
+        "grim",
+        "nwg-dock-hyprland",
+        "cliphist",
+        "wl-clip-persist",
+
+
+        // terminal utils cli, tui, 
+        "git",
+        "openssh",
+        "terminus-font",
         "base",
         "base-devel",
-        "openssh",
-        "pipewire-alsa",
-        "pipewire-pulse",
-        "nano",
-        "mpv",
-        "hyprland",
-        "git",
-        "yazi",
-        "npm", 
-        "nodejs", 
-        "neofetch",
-        "zsh",
-        "zoxide",
-        "obs-studio",
-        "z",
-        "terminus-font",
-        "xdg-desktop-portal-hyprland",
-        "wlr-randr",
-        "wl-clipboard",
-        "swww",
-        "ripgrep",
-        "python-argcomplete",
-        "python-pillow",
         "unzip",
         "zip",
         "tar",
         "ouch",
         "figlet",
         "feh",
+        "btop", 
         "mediainfo",
-        "grim",
-        "brightnessctl",
-        "eza",
-        "firefox",
-        "cliphist",
-        "exa",
         "bc",
-        "noto-fonts-cjk",
-        "noto-fonts",
-        "jq",
-        "dunst",
-        "telegram-desktop",
         "calc",
-        "wl-clip-persist",
-        "waybar",
-        "fastfetch",
-        "rofi",
-        "rofi-emoji",
+        "ripgrep",
         "fzf",
+        "jq",
+        "brightnessctl",
+        "udisks2",
+        "wget",
+
+        //image
+        "imagemagick",
+
+        //fetchs
+        "neofetch", 
+        "fastfetch", 
+
+        // shell
+        "zsh",
+        "z",
         "bat",
         "zoxide",
-        "z",
-        "udisks2",
-        "libnotify",
+        "eza",
+
+        // file manager 
+        "yazi", // tui 
+        "nemo", // gui 
+
+        // audio utils
+        "pipewire-alsa",
+        "pipewire-pulse",
+        "pavucontrol",
+
+        // editor 
+        "vim",      // tui
+        "neovim",   // tui
+        "nano",     // tui
+
+        //packages manager
+        "npm", 
+        "python-pip",
+
+        //languages
+        "nodejs", 
         "python",
-        "btop",
-        "wget",
-        "neovim",
-        "vim",
+        "lua",
+        "rust",
+        "go",
+
+        // media utils
+        "mpv",
+        "ffmpeg",
+        "obs-studio",
+
+        // app launcher
+        "rofi",
+        "rofi-emoji",
+
+        // application
+        "telegram-desktop",
+        "firefox",
+
+        //notifications
+        "dunst",
+        "libnotify",
 
         //trash
         "trash-cli",
 
         //blootooth
-        "bluetui",
+        "bluetui", // tui
         "bluez",
         "bluez-utils",
         "blueman",
 
-        "slurp",
-        "nwg-look",
-        "pavucontrol",
-        "nwg-dock-hyprland",
+        // python libs
+        "python-psutil",
+        "python-argcomplete",
+        "python-pillow",
+
+        // qt libs
         "qt6-svg",
         "qt6-multimedia",
         "qt6-virtualkeyboard",
+
+        // fonts
+        "noto-fonts-cjk",
+        "noto-fonts",
         "ttf-fira-code",
-        "python-psutil",
         "ttf-firacode-nerd",
         "ttf-cascadia-code",
         "ttf-cascadia-code-nerd",
@@ -130,16 +167,30 @@
     },
     {
       "aur": [
-        "wl-clipboard-history-git",
-        "pfetch",
-        "figlet-fonts",
+        // Wayland
         "hyprswitch",
-        "figlet-fonts-extra",
+        "wl-clipboard-history-git",
         "wayvibes-git",
-        "flameshot-git",
+
+        //fetchs
+        "pfetch",
         "nerdfetch",
-        "ttf-apple-emoji",
+
+        //terminal utils cli, tui,
         "rich-cli",
+
+        //video utils
+        "mpvpaper",
+
+        //screenshots
+        "flameshot-git",
+
+        // fonts
+        "ttf-apple-emoji",
+        "figlet-fonts-extra",
+        "figlet-fonts",
+
+        // python libs
         "python-screeninfo",
       ]
     }
