@@ -1,6 +1,8 @@
 [
+  "wl-clipboard-history-git",
   "pfetch",
   "figlet-fonts",
+  "hyprswitch",
   "figlet-fonts-extra",
   "wayvibes-git",
   "flameshot-git",
@@ -51,6 +53,7 @@
   "dunst",
   "telegram-desktop",
   "calc",
+  "wl-clip-persist",
   "waybar",
   "fastfetch",
   "rofi",

@@ -346,7 +346,6 @@ hyprctl reload
 flameshot gui
 yazi
 git add -A .; git commit -m "update | README.md" ; git push
-
 bluetui
 Ð²Ñƒ¤ÐµÑƒ£
 dunst
@@ -361,7 +360,6 @@ pyinstaller --onefile decpkg.py
 ./decpkg -s
 makepkg --printsrcinfo > .SRCINFO\
 
-lt .
 lt -a .
 sudo rm /usr/bin/decpkg\
 
@@ -485,7 +483,6 @@ https://aur.archlinux.org/packages/decpkg
 ssh https://aur.archlinux.org/packages/decpkg
 decpkg
 cclear
-git add -A .
 git commit -m "Initial commit with correct structure"\
 
 git push
@@ -565,146 +562,77 @@ python3 -u /home/maaru/.local/bin/dotfiles/start.py
 `python3 -u /home/maaru/Documents/dotfiles/start.py`
 ls yazi/
 python3 -u /home/maaru/Documents/dotfiles/tests.py
-decpkg -s
 figlet -f Calvin\ S .git exist
 figlet -f Calvin\ S .git exispython3 -u /home/maaru/Documents/dotfiles/start.pyt
-python3 -u /home/maaru/Documents/dotfiles/logic/logic.py
 figlet -f Calvin\ S git clone
-git add -A . ; git commit -m "update" ; git push
-Ñƒ£
-git rm --cached .config/yazi/.git
 q
-ls
 git add -A . ; git commit -m "update | yazi" ; git push
-e
-clear
 git add -A . ; git commit -m " " ; git push
-git add -A . ; git commit -m "clear" ; git push
-python3 -u /home/maaru/Documents/dotfiles/start.py
 cls
-: 1745015656:0;e
-: 1745015743:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745016859:0;clear
-: 1745016864:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745016994:0;python3 -u /home/maaru/Documents/dotfiles/logic/logic.py
-: 1745016998:0;clear
-: 1745016999:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745017127:0;e
-: 1745017137:0;lpython3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745017137:0;clear
-: 1745017138:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745017248:0;e
-: 1745017251:0;python3 -u /home/maaru/Documents/dotfiles/logic/logic.py
-: 1745017255:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745017373:0;lpython3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745017373:0;clear
-: 1745017374:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745017912:0;e
-: 1745017919:0;lpython3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745017921:0;clear
-: 1745017926:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745018194:0;python3 -u /home/maaru/Documents/dotfiles/logic/logic.py
-: 1745018199:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745018200:0;clear
-: 1745018201:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745018881:0;clear
-: 1745018882:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745019096:0;kkpython3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745019097:0;clear
-: 1745019099:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745019140:0;clear
-: 1745019141:0;lls
-: 1745019156:0;git rm --cached .config/yazi/.git
-: 1745019186:0;e
-: 1745019192:0;lt .
-: 1745019207:0;lt -a level=2 .
-: 1745019217:0;iclear
-: 1745019220:0;lt -a level=1 .
-: 1745019243:0;lt -a --level=1
-: 1745019247:0;lt -a --level=1 .
-: 1745019251:0;lt -a --level=2 .
-: 1745019279:0;e
-: 1745019294:0;git add -A . ; git commit -m "update" ; git push
-: 1745019365:0;git ls-files | grep yazi/.git\
+python3 -u /home/maaru/Documents/dotfiles/logic/logic.py
+kkpython3 -u /home/maaru/Documents/dotfiles/start.py
+lls
+git rm --cached .config/yazi/.git
+lt .
+lt -a level=2 .
+iclear
+lt -a level=1 .
+lt -a --level=1
+lt -a --level=1 .
+lt -a --level=2 .
+git ls-files | grep yazi/.git\
 
-: 1745019366:0;Ñƒ£
-: 1745019367:0;e
-: 1745019371:0;git ls-files | grep yazi/.git\
+git rm --cached -r .config/yazi/.git\
 
-: 1745019383:0;git rm --cached -r .config/yazi/.git\
-
-: 1745019389:0;git submodule deinit -f -- .config/yazi/.git\
+git submodule deinit -f -- .config/yazi/.git\
 rm -rf .git/modules/.config/yazi/.git\
 
-: 1745019393:0;.config/yazi/.git/\
+.config/yazi/.git/\
 
-: 1745019394:0;clear
-: 1745019394:0;e
-: 1745019414:0;git add -A . ; git commit -m "clear" ; git push
-: 1745019418:0;e
-: 1745019430:0;git add -A . ; git commit -m "update" ; git push
-: 1745019453:0;e
-: 1745019482:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745019495:0;e
-: 1745019503:0;clear
-: 1745019505:0;git add -A . ; git commit -m "update" ; git push
-: 1745019510:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745019512:0;e
-: 1745019609:0;55python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745019611:0;clear
-: 1745019612:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745019819:0;git add -A . ; git commit -m "clear" ; git push
-: 1745019822:0;e
-: 1745019825:0;ls
-: 1745019827:0;cd dotfiles/
-: 1745019827:0;ls
-: 1745019829:0;git add -A . ; git commit -m "clear" ; git push
-: 1745019832:0;e
-: 1745019838:0;lpython3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745019839:0;clear
-: 1745020043:0;python3 -u /home/maaru/Documents/dotfiles/start.py
-: 1745020155:0;clar
-: 1745020156:0;clear
-: 1745020649:0;git init -b main\
+55python3 -u /home/maaru/Documents/dotfiles/start.py
+cd dotfiles/
+git add -A . ; git commit -m "clear" ; git push
+lpython3 -u /home/maaru/Documents/dotfiles/start.py
+python3 -u /home/maaru/Documents/dotfiles/start.py
+clar
+git init -b main\
 git add -A .\
 git remote add origin git@github.com:maarutan/dotpusher.git\
 git push -u origin main
-: 1745020664:0;git commit -m "first commit" ; git push
-: 1745020680:0;git commit -m "first commit" ; git push --set-upstream origin mainh
-: 1745020687:0;clear
-: 1745020693:0;git push --force --set-upstream origin main \
+git commit -m "first commit" ; git push
+git commit -m "first commit" ; git push --set-upstream origin mainh
+git push --force --set-upstream origin main \
 
-: 1745020706:0;e
-: 1745020740:0;clear
-: 1745020746:0;git add -A . ; git commit -m "update" ; git push
-: 1745020769:0;e
-: 1745020860:0;git add -A . ; git commit -m "update" ; git push
-: 1745020878:0;git rm --cached __pycache__/ \
+git rm --cached __pycache__/ \
 
-: 1745020879:0;e
-: 1745020885:0;git add -A . ; git commit -m "update" ; git push
-: 1745020889:0;clear
-: 1745020956:0;e
-: 1745021006:0;git add -A .
-: 1745021006:0;e
-: 1745021019:0;git commit -m "update | gitignore "
-: 1745021020:0;clear
-: 1745021020:0;e
-: 1745021035:0;git rm --cached .current.log\
+git add -A .
+git commit -m "update | gitignore "
+git rm --cached .current.log\
 
-: 1745021040:0;git rm --cached logic/__pycache__/\
+git rm --cached logic/__pycache__/\
 
-: 1745021043:0;git rm --cached logic/__pycache__/ -r\
+git rm --cached logic/__pycache__/ -r\
 
-: 1745021052:0;clear
-: 1745021055:0;git add -A . ; git commit -m "update" ; git push
-: 1745021110:0;e
-: 1745021257:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745021302:0;e
-: 1745021354:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745021475:0;e
-: 1745021627:0;3python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745021627:0;clear
-: 1745021628:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745021767:0;clear
-: 1745021770:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+3python3 -u /home/maaru/Documents/dotpusher/start.py
+python3 -u /home/maaru/Documents/dotpusher/start.py
+ls
+git add -A . ; git commit -m "update" ; git push
+Ñƒ£
+sudo pacman -S wl-clipboard-history
+sudo pacman -S wl-clip-persist
+hyprswitch
+decode
+paru -S decode
+decpkg -s
+z rofi
+python3 -u /home/maaru/.config/rofi/launchers/clipboard/wayland_clipboard.py
+cliphist decode
+paru -S cliphist
+hyprctl workspaces
+clear
+z /home/maaru/.config/rofi/
+
+e
+: 1745024084:0;z script
+: 1745024086:0;e
+: 1745024128:0;clear
