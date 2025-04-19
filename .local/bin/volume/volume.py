@@ -12,8 +12,12 @@ VOLUME_THEME = "twist"  # loudmouth, twist
 DELAY_TIME = 2000  # milliseconds
 PROGRESS_LINE = True
 CACHE_FILE_SYSTEM_THEME = pathlib.Path.home() / ".cache" / "system_theme"
-VOLUME_CONTENT_MUTE = "   (づ｡◕‿‿◕｡)づ"
-VOLUME_CONTENT = lambda volume: f"  *･ﾟ✧ {volume}% ✧･ﾟ*"
+# VOLUME_CONTENT_MUTE = "   (づ｡◕‿‿◕｡)づ"
+VOLUME_CONTENT_MUTE = "mute"
+# VOLUME_CONTENT = lambda volume: f"  *･ﾟ✧ {volume}% ✧･ﾟ*"
+VOLUME_CONTENT = lambda volume: f"{volume}%"
+# ELSE_CONTENT_MIC = "🎤 Microphone Unmuted"
+ELSE_CONTENT_MIC = "on"
 
 
 # ----=== Logic ===----
@@ -156,7 +160,7 @@ def send_notification(volume: int, progress: bool = True):
 def toggle_microphone():
     shell("pactl set-source-mute @DEFAULT_SOURCE@ toggle")
     icon_path = Icons().get_microphone_icon()
-    message = VOLUME_CONTENT_MUTE if is_mic_mute() else "🎤 Microphone Unmuted"
+    message = VOLUME_CONTENT_MUTE if is_mic_mute() else ELSE_CONTENT_MIC
     shell(f'notify-send -i "{icon_path}" -t {DELAY_TIME} -r {SEND_ID} "{message}"')
 
 

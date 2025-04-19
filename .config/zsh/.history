@@ -708,3 +708,72 @@ e
 : 1745028350:0;decpkg -s
 : 1745028511:0;e
 : 1745028521:0;./start.py
+: 1745028653:0;e
+: 1745028676:0;python3 -u /home/maaru/.local/bin/keyboard/hypr_keyboardswitch.py
+: 1745028684:0;clear
+: 1745028761:0;btop
+: 1745028819:0;dunst -c /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745028825:0;pkill dunst
+: 1745028828:0;dunst -c /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745028831:0;e
+: 1745028835:0;dunst -h
+: 1745028844:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745028871:0;clear
+: 1745028871:0;e
+: 1745028917:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745028927:0;clear
+: 1745028927:0;e
+: 1745028990:0;clear
+: 1745028993:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029015:0;\
+e
+: 1745029064:0;pkill dunst
+: 1745029068:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029078:0;e
+: 1745029110:0;clear
+: 1745029112:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029122:0;e
+: 1745029140:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029143:0;e
+: 1745029156:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029178:0;zsh
+: 1745029179:0;e
+: 1745029186:0;pkill -f dunst
+: 1745029187:0;e
+: 1745029213:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029383:0;clear
+: 1745029386:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029394:0;clear
+: 1745029397:0;сду�у�к
+: 1745029411:0;clear
+: 1745029414:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029434:0;pkill -f dunst
+: 1745029442:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029592:0;clear
+: 1745029594:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029704:0;clear
+: 1745029710:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029788:0;clear
+: 1745029843:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029878:0;тму�у�
+: 1745029880:0;nvim
+: 1745029909:0;dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+: 1745029913:0;clear
+: 1745030008:0;dunst -conf /home/maaru/.config/dunst/type/volume/dunstrc
+: 1745030103:0;e
+: 1745030169:0;dunst -conf /home/maaru/.config/dunst/type/volume/dunstrc
+: 1745030195:0;clear
+: 1745030200:0;dunst -conf /home/maaru/.config/dunst/type/volume/dunstrc
+: 1745044955:0;nmcli d w list
+: 1745044982:0;nmcli d w connect Geeks\ 2/3 --asjk
+: 1745044985:0;nmcli d w connect Geeks\ 2/3 --ask
+: 1745045030:0;paru -S decpkg
+: 1745045087:0;e
+: 1745045132:0;~
+: 1745045135:0;echo ~
+: 1745045152:0;ls ~/.config/kitty
+: 1745045209:0;e
+: 1745045269:0;figlet -f Calvin\ S kitty
+: 1745045282:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745045315:0;clear
+: 1745045317:0;python3 -u /home/maaru/Documents/dotpusher/start.py

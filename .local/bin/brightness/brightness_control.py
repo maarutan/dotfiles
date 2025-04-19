@@ -16,9 +16,8 @@ brightness_icon = "dynamic"  # dynamic, static, moon_sun, none
 DELAY_TIME = 2000  # milliseconds
 PROGRESS_LINE = True
 CACHE_FILE_SYSTEM_THEME = pathlib.Path.home() / ".cache" / "system_theme"
-
-
-BRIGHTNESS_CONTENT = lambda brightness: f"  *･ﾟ✧ {brightness}% ✧･ﾟ*"
+# BRIGHTNESS_CONTENT = lambda brightness: f"  *･ﾟ✧ {brightness}% ✧･ﾟ*"
+BRIGHTNESS_CONTENT = lambda brightness: f"{brightness}%"
 
 # INFO: ----=== Logic ===----
 
