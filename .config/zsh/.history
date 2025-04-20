@@ -875,3 +875,16 @@ e
 : 1745137891:0;python3 -u /home/maaru/Documents/dotpusher/start.py
 : 1745137926:0;clear
 : 1745137927:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745138715:0;clear
+: 1745138940:0;python3 -u /home/maaru/Documents/dotpusher/test.py
+: 1745139192:0;ls -ld ~/.config/yazi\
+
+: 1745139464:0;e
+: 1745139546:0;dunst
+: 1745139556:0;clear
+: 1745139563:0;dunst
+: 1745139580:0;setsid dunst
+: 1745139586:0;e
+: 1745139591:0;z
+: 1745139592:0;e
+: 1745139824:0;python3 -u /home/maaru/Documents/dotpusher/start.py

@@ -12,12 +12,12 @@ VOLUME_THEME = "twist"  # loudmouth, twist
 DELAY_TIME = 2000  # milliseconds
 PROGRESS_LINE = True
 CACHE_FILE_SYSTEM_THEME = pathlib.Path.home() / ".cache" / "system_theme"
-# VOLUME_CONTENT_MUTE = "   (づ｡◕‿‿◕｡)づ"
-VOLUME_CONTENT_MUTE = "mute"
-# VOLUME_CONTENT = lambda volume: f"  *･ﾟ✧ {volume}% ✧･ﾟ*"
-VOLUME_CONTENT = lambda volume: f"{volume}%"
-# ELSE_CONTENT_MIC = "🎤 Microphone Unmuted"
-ELSE_CONTENT_MIC = "on"
+VOLUME_CONTENT_MUTE = "   (づ｡◕‿‿◕｡)づ"
+# VOLUME_CONTENT_MUTE = "mute"
+VOLUME_CONTENT = lambda volume: f"  *･ﾟ✧ {volume}% ✧･ﾟ*"
+# VOLUME_CONTENT = lambda volume: f"{volume}%"
+ELSE_CONTENT_MIC = "🎤 Microphone Unmuted"
+# ELSE_CONTENT_MIC = "on"
 
 
 # ----=== Logic ===----

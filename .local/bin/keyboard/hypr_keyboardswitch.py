@@ -14,18 +14,16 @@ import pathlib
 HOME = pathlib.Path.home()
 CURRENT_DIR = pathlib.Path(__file__).parent
 ICON_PATH = CURRENT_DIR / ".icons" / "language.svg"
-# COMMAND = (
-#     lambda lang: f"notify-send -r 9999 -i {ICON_PATH} '{lang}'"
-# )
-COMMAND = lambda lang: f"notify-send -r 9999  -t 400 '{lang}'"
+# COMMAND = lambda lang: f"notify-send -r 9999 -i {ICON_PATH} '{lang}'"
+COMMAND = lambda lang: f"notify-send -r 9999 -i {ICON_PATH} -t 400 '{lang}'"
 # COMMAND = lambda lang: f"notify-send -r 9999  '{lang}'"
-PADDING = [0, 0]  # padding_left { content } padding_right
+PADDING = [7, 0]  # padding_left { content } padding_right
 NOTIFY = True
 
 # change view content
 change_layout_output = {
-    "English (US)": "english",
-    "Russian": "russian",
+    "English (US)": "English",
+    "Russian": "Russian",
 }
 
 # INFO: ####   -----=== logic ===-----   ####
