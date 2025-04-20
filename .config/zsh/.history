@@ -702,3 +702,10 @@ ex
 : 1745146625:0;git add -A . ; git commit -m "update" ; git push
 : 1745146629:0;e
 : 1745146636:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745147351:0;lt -a --level=2 .
+: 1745147394:0;e
+: 1745147420:0;clear
+: 1745147420:0;ls
+: 1745147421:0;..
+: 1745147421:0;ls
+: 1745147424:0;./start.py
