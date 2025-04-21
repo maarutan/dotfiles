@@ -216,7 +216,6 @@ poweroff
 sudo pacman -S git-credential-manager\
 
 ya pack -a ndtoan96/ouch
-lsblk
 sudo pacman -S nemo
 git add -A .; git commit -m "fix | waybar"; git push
 chmod +666 ./*
@@ -340,7 +339,6 @@ hyprctl reload
 flameshot gui
 yazi
 git add -A .; git commit -m "update | README.md" ; git push
-bluetui
 Ð²Ñƒ¤ÐµÑƒ£
 figlet -f Calvin\ S build
 install
@@ -484,7 +482,6 @@ paru -Syu decpkg
 micro
 ffmpeg -i input.mp4 -vcodec libx264 -crf 28 -preset veryfast -acodec aac -b:a 128k output.mp4\
 
-..
 git clone git@github.com:maarutan/decpkg
 git add -A . ; git commit -m "update" ; git push origin master
 ll -a
@@ -633,7 +630,6 @@ z way
 ./bar.py -d
 ./bar.py -e
 ./bar.py -a
-
 rn sudo nano /etc/vconsole.conf\
 
 sudo nvim /etc/vconsole.conf\
@@ -690,55 +686,24 @@ z
 git add -A . ; git commit -m "reset" ; git push
 git rm --cached base.json\
 
-git add -A . ; git commit -m "update" ; git push
-./start.py
-ls
 Ñƒ£
 lt -a --level=2 .
+..
+ls
+./start.py
+bluetui
+
+lsblk
+ls /etc/ly/config.ini
+python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+thon3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+git add -A . ; git commit -m "update" ; git push
+python3 -u /home/maaru/Documents/dotpusher/start.py
 e
 clear
-python3 -u /home/maaru/Documents/dotpusher/start.py
 ex
-: 1745146625:0;git add -A . ; git commit -m "update" ; git push
-: 1745146629:0;e
-: 1745146636:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745147351:0;lt -a --level=2 .
-: 1745147394:0;e
-: 1745147420:0;clear
-: 1745147420:0;ls
-: 1745147421:0;..
-: 1745147421:0;ls
-: 1745147424:0;./start.py
-: 1745147972:0;e
-: 1745147985:0;git add -A . ; git commit -m "update" ; git push
-: 1745147989:0;e
-: 1745147993:0;git add -A . ; git commit -m "update" ; git push
-: 1745147998:0;clear
-: 1745147999:0;e
-: 1745148004:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745156759:0;bluetui
-: 1745223607:0;e
-
-
-: 1745223794:0;lsblk
-: 1745236470:0;e
-: 1745236593:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745236614:0;clear
-: 1745236654:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745236685:0;clear
-: 1745236686:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745236708:0;clear
-: 1745236709:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745236729:0;ls /etc/ly/config.ini
-: 1745236869:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
-: 1745236871:0;clear
-: 1745236872:0;thon3 -u /home/maaru/Documents/dotpusher/logic/logic.py
-: 1745236873:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745237520:0;clear
-: 1745237767:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745238412:0;git add -A . ; git commit -m "update" ; git push
-: 1745238416:0;e
-: 1745238425:0;git add -A . ; git commit -m "update" ; git push
-: 1745238429:0;clear
-: 1745238429:0;e
-: 1745238471:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745238534:0;clear
+: 1745238537:0;..
+: 1745238537:0;ls
+: 1745238541:0;cd dotpusher/
+: 1745238556:0;python3 -u /home/maaru/Documents/dotpusher/start.py
