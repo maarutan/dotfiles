@@ -707,3 +707,6 @@ ex
 : 1745238537:0;ls
 : 1745238541:0;cd dotpusher/
 : 1745238556:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745238577:0;clear
+: 1745238577:0;thon3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745238579:0;python3 -u /home/maaru/Documents/dotpusher/start.py
