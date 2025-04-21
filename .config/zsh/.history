@@ -716,3 +716,10 @@ ex
 : 1745147998:0;clear
 : 1745147999:0;e
 : 1745148004:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745156759:0;bluetui
+: 1745223607:0;e
+
+
+: 1745223794:0;lsblk
+: 1745236470:0;e
+: 1745236593:0;python3 -u /home/maaru/Documents/dotpusher/start.py
