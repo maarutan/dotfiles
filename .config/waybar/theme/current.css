@@ -134,6 +134,7 @@ button:hover {
   border: solid 0.2px @foreground;
   padding: 7px;
   margin: 5px 0;
+  margin-left: 5px;
   transition: 0.5s;
   margin-left: 10px;
   border-radius: 10px;
