@@ -293,8 +293,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/insta
 sh -c "$(curl -fsSL "https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh --curl")"
 git add -A README.md ; git commit -m "update | README.md" ; git push
 git add -A install.sh ; git commit -m "update | install.sh" ; git push
-git pull origin
-git pull origin main
 git clone --depth 1 --single-branch git@github.com:maarutan/yamoon.git
 git add -A .; git commit -m "update" ; git push
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh)" --curl
@@ -550,7 +548,6 @@ figlet -f Calvin\ S git clone
 q
 git add -A . ; git commit -m "update | yazi" ; git push
 git add -A . ; git commit -m " " ; git push
-cls
 python3 -u /home/maaru/Documents/dotfiles/logic/logic.py
 kkpython3 -u /home/maaru/Documents/dotfiles/start.py
 lls
@@ -687,69 +684,39 @@ git add -A . ; git commit -m "reset" ; git push
 git rm --cached base.json\
 
 Ñƒ£
-lt -a --level=2 .
-..
-ls
 ./start.py
 bluetui
 
 lsblk
 ls /etc/ly/config.ini
-python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
 thon3 -u /home/maaru/Documents/dotpusher/logic/logic.py
 git add -A . ; git commit -m "update" ; git push
-python3 -u /home/maaru/Documents/dotpusher/start.py
-e
-clear
 ex
-: 1745238534:0;clear
-: 1745238537:0;..
-: 1745238537:0;ls
-: 1745238541:0;cd dotpusher/
-: 1745238556:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745238577:0;clear
-: 1745238577:0;thon3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745238579:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745306123:0;clear
-: 1745313678:0;nmcli d w show
-: 1745313679:0;clear
-: 1745313951:0;e
-: 1745313972:0;ls
-: 1745313975:0;clear
-: 1745313977:0;echo hello
-: 1745313979:0;clear
-: 1745313979:0;e
-: 1745313997:0;clear
-: 1745314029:0;e
-: 1745314042:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745314230:0;ls
-: 1745314276:0;cd moonvim/ ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; git add -A ; git commit -m "clear"; git push ;
-: 1745314283:0;clear
-: 1745314283:0;e
-: 1745314318:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745314850:0;e
-: 1745314999:0;lt -a --level=2 .
-: 1745315081:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745315101:0;clear
-: 1745315203:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745315226:0;ls
-: 1745315229:0;cd dist/
-: 1745315233:0;cd moonvim/ ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; git add -A ; git commit -m "clear"; git push ;
-: 1745315239:0;clear
-: 1745315270:0;cd moonvim/ ; rm! nvim ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; rm! yazi ; git add -A ; git commit -m "clear"; git push ;
-: 1745315275:0;..
-: 1745315277:0;cd moonvim/ ; rm! nvim ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; rm! yazi ; git add -A ; git commit -m "clear"; git push ;
-: 1745315284:0;e
-: 1745315291:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745315518:0;e
-: 1745315533:0;clear
-: 1745315544:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
-: 1745315546:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745315564:0;e
-: 1745315578:0;clear
-: 1745315621:0;python3 -u /home/maaru/Documents/dotpusher/start.py
-: 1745315666:0;clear
-: 1745315684:0;git add -A . ; git commit -m "new fitch | copy to inside" ; git push
-: 1745315688:0;clear
-: 1745315690:0;e
-: 1745315709:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+cd dotpusher/
+thon3 -u /home/maaru/Documents/dotpusher/start.py
+nmcli d w show
+echo hello
+lt -a --level=2 .
+ls
+cd dist/
+cd moonvim/ ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; git add -A ; git commit -m "clear"; git push ;
+..
+cd moonvim/ ; rm! nvim ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; rm! yazi ; git add -A ; git commit -m "clear"; git push ;
+python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+git add -A . ; git commit -m "new fitch | copy to inside" ; git push
+python3 -u /home/maaru/Documents/dotpusher/start.py
+git pull origin main
+clear
+git pull origin
+e
+cls
+: 1745315881:0;ls
+: 1745315881:0;e
+: 1745315884:0;clear
+: 1745315888:0;git clone --depth 1 --single-branch git@github.com:maarutan/yamoon.git
+: 1745315891:0;git clone --depth 1 --single-branch git@github.com:maarutan/yamoon.git .
+: 1745315895:0;e
+: 1745315909:0;git add -A . ; git commit -m "new fitch | copy to inside" ; git push
+: 1745315914:0;clear
+: 1745315915:0;e
+: 1745315918:0;python3 -u /home/maaru/Documents/dotpusher/start.py
