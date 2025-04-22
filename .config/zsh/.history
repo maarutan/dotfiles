@@ -732,3 +732,12 @@ ex
 : 1745315081:0;python3 -u /home/maaru/Documents/dotpusher/start.py
 : 1745315101:0;clear
 : 1745315203:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745315226:0;ls
+: 1745315229:0;cd dist/
+: 1745315233:0;cd moonvim/ ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; git add -A ; git commit -m "clear"; git push ;
+: 1745315239:0;clear
+: 1745315270:0;cd moonvim/ ; rm! nvim ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; rm! yazi ; git add -A ; git commit -m "clear"; git push ;
+: 1745315275:0;..
+: 1745315277:0;cd moonvim/ ; rm! nvim ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; rm! yazi ; git add -A ; git commit -m "clear"; git push ;
+: 1745315284:0;e
+: 1745315291:0;python3 -u /home/maaru/Documents/dotpusher/start.py
