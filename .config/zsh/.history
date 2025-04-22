@@ -741,3 +741,15 @@ ex
 : 1745315277:0;cd moonvim/ ; rm! nvim ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; rm! yazi ; git add -A ; git commit -m "clear"; git push ;
 : 1745315284:0;e
 : 1745315291:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745315518:0;e
+: 1745315533:0;clear
+: 1745315544:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745315546:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745315564:0;e
+: 1745315578:0;clear
+: 1745315621:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745315666:0;clear
+: 1745315684:0;git add -A . ; git commit -m "new fitch | copy to inside" ; git push
+: 1745315688:0;clear
+: 1745315690:0;e
+: 1745315709:0;python3 -u /home/maaru/Documents/dotpusher/start.py
