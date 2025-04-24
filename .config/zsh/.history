@@ -1018,3 +1018,50 @@ cls
 : 1745325089:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
 : 1745325090:0;clear
 : 1745325093:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325105:0;clear
+: 1745325153:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325155:0;clear
+: 1745325174:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325175:0;clear
+: 1745325185:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745325186:0;clear
+: 1745325187:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325221:0;clear
+: 1745325222:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325244:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745325245:0;clear
+: 1745325246:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325247:0;clear
+: 1745325851:0;e
+: 1745326008:0;bluetui
+: 1745326711:0;git add -A . ; git commit -m "new fitch" ; git push
+: 1745327515:0;bluetui
+: 1745329141:0;Ñƒ£
+: 1745329142:0;e
+: 1745329292:0;curl ascii.live/nyan
+: 1745329314:0;clear
+: 1745329970:0;Ñƒ£
+: 1745329971:0;e
+: 1745330002:0;lsblk
+: 1745330003:0;clear
+: 1745330006:0;lsblk
+: 1745330030:0;clear
+: 1745330031:0;lsblk
+: 1745330032:0;clear
+: 1745330035:0;e
+: 1745330039:0;lsblk
+: 1745330042:0;clear
+: 1745446031:0;e
+: 1745472943:0;nmcli d w list
+: 1745472947:0;nmcli d w connect Lavrovyh\ 14
+: 1745472956:0;clear
+: 1745472970:0;nmcli d w list
+: 1745472974:0;clear
+: 1745472976:0;nmcli d w list
+: 1745472982:0;nmcli d w connect Redmi\ 9C\ NFC
+: 1745472994:0;nmcli d w connect Redmi\ 9C\ NFC --ask
+: 1745451535:0;e
+: 1745457554:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745457579:0;btop
+: 1745457589:0;clear
+: 1745457709:0;python3 -u /home/maaru/Documents/dotpusher/start.py
