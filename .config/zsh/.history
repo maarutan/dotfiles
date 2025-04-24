@@ -1117,3 +1117,14 @@ cls
 : 1745490120:0;python3 -u /home/maaru/Documents/dotpusher/start.py
 : 1745490128:0;clear
 : 1745490128:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745490767:0;clear
+: 1745490780:0;ls
+: 1745490813:0;git add -A . ; git commit -m "fixed | simaticsо" ; git push
+: 1745490817:0;clear
+: 1745490886:0;e
+: 1745490890:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745490891:0;clear
+: 1745490897:0;python3 -u /home/maaru/Documents/dotpusher/start.py -l
+: 1745490899:0;clear
+: 1745491079:0;git add -A . ; git commit -m "fixed | simaticsо" ; git push
+: 1745491252:0;python3 -u /home/maaru/Documents/dotpusher/start.py
