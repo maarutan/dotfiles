@@ -1085,3 +1085,5 @@ cls
 : 1745486089:0;python3 -u /home/maaru/Documents/dotpusher/start.py
 : 1745486609:0;clear
 : 1745486617:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745487326:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745487329:0;python3 -u /home/maaru/Documents/dotpusher/start.py
