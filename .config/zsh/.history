@@ -1,0 +1,1138 @@
+sudo pacman -S eza exa
+LS
+sudo rm /usr/bin/decpkg ;ln -s ~/123456/decpkg.py /usr/bin/decpkg
+c;ear
+pkill -u maaru
+mkdir ~/.config
+./decpkg.py -g
+cd 123456/
+./decpkg.py -s
+i
+./decpkg.py -
+./decpkg.py -a
+0
+23exit
+echo $SHELL
+sudo chsh
+chsh
+sudo -E yazi
+sudo ln ~/123456/decpkg.py /bin/decpkg
+sudo pacman -S hyprland
+Hyprland
+sudo pacman -S kitty
+sudo systemctl enable sddm
+sudo systemctl start sddm
+sudo pacman -S pacman-contrib
+locale-gen
+sudo nvim /etc/locale.gen
+sudo locale-gen
+lua
+decpkg -a
+re
+sudo yazi
+sudo e
+sudo pacman -S ranger
+nvidia
+sudo pacman -R yazi
+sudo pacman -Syu yazi
+sudo -e yazi
+pfetch
+paru -S yazi
+paru -S yazi-git
+sudo pacman -S yazi
+sudo pacman -S noto-fonts noto-fonts-cjk
+z ~/.config/declarative_package/
+nvim config.jsonc
+sudo pacman -S ttf-firacode-nerd
+w
+a
+python3 -u /home/maaru/.local/bin/wallpapers/start.py
+git clone --depth 1 --single-branch https://github.com/maarutan/wall-maaru
+dr Pictures
+git clone --depth 1 --single-branch https://github.com/maarutan/wall-maaru ~/Pictures/wallpapers
+ya -h
+z ~/.local/bin/
+./wallpapers/start.py
+\
+mv ~/.config/yazi/ ~/.config/yazi-save\
+git clone https://github.com/maarutan/yazi-maaru.git ~/.config/yazi\
+cd ~/.config/yazi\
+\
+#\
+./install.sh
+sudo pacman -S wrap
+paru -S wrap-git
+sudo pacman -S warp-terminal
+paru -S warp-terminal
+TERM
+terminal-wrap
+xwayland=Wrap
+Wrap
+sudo pacman -Rns warp-terminal
+sudo pacman -R warp-terminal
+sudo pacman -R warp-terminal-bin
+yazi --version\
+
+echo $(yazi) --version\
+
+ranger
+z wal
+chmem maaru
+chown maaru:wheel ./
+chown maaru:wheel ./*
+sudo chown maaru:wheel ./*
+ya pack -a imsi32/yatline
+ya pack -a hankertrix/augment-command
+ya pack -a boydaihungst/simple-tag
+ya pack -a pirafrank/what-size
+ya pack -a yazi-rs/plugins:toggle-pane
+figlet -f Calvin\ S plugins keymaps
+figlet -f Calvin\ S yazi keymaps
+sudo systemctl bluetooth
+sudo systemctl enable bluetooth.service
+figlet -f Calvin\ S init
+f
+ya pack -a boydaihungst/restore
+pacman -q yazi
+pacman -Q yazi
+paru -S trash-cli
+which trash
+pacman -Q trash-cli
+ya pack -a yazi-rs/plugins:smart-enter
+ya pack -a yazi-rs/plugins:git
+ya pack -a ahkohd/eza-preview
+figlet -f Calvin\ S plugins
+figlet -f Calvin\ S yazi.toml
+eza
+ya pack -a yazi-rs/plugins:jump-to-char
+ya pack -a dedukun/relative-motions
+ls -R ~/.config/yazi/plugins/full-border.yazi\
+
+ya pack -a yazi-rs/plugins:full-border
+ya pack -a boydaihungst/mediainfo
+mediainfo --version
+ya pack -a Ape/simple-status
+ya pack -d Ape/simple-status
+z yazi
+ya pack -a yazi-rs/plugins:mount
+ls /run/media/maaru/"Ѓ�ову�й том"
+cd /run/media/maaru/"Ѓ�ову�й том"
+ya pack -a Ape/open-with-cmd
+ya pack -a yazi-rs/plugins:chmod
+pkill -f teleg
+echo $(which yazi)
+/sbin/yazi
+/sbin/yazi --debug
+ee
+nmcli d w connect Lavrovyh\ 14 --ask
+z kitty
+z .config/kitty/
+chown maaru:maaru ./*
+sudo chown maaru:maaru ./*
+sudo chown -R maaru:wheel /home/maaru\
+
+python3 -u /home/maaru/.local/bin/wallpapers/images/launcher.py
+git clone https://github.com/raffaem/waybar-mediaplayer.git
+pkill -f waybar
+git clone https://github.com/yurihs/waybar-media.git
+sudo pacman -S pydbus
+sudo pacman -S python-pydbus
+~/.config/waybar/modules/waybar-media.py
+~/.config/waybar/modules/waybar-media.py status
+busctl
+sudo pacman -S python-pydbus python-psutil\
+
+waybar-media.py status\
+
+busctl --user | grep plasma\
+
+echo $DBUS_SESSION_BUS_ADDRESS\
+
+Ѓ�
+sudo pacman -S plasma-browser-integration\
+
+busctl --user list | grep mpris\
+
+python3 -u /home/maaru/.config/waybar/modules/waybar-media.py next
+python3 -u /home/maaru/.config/waybar/modules/waybar-media.py previous
+git checkout HEAD .
+python3 -u /home/maaru/.config/waybar/modules/waybar-media.py
+python3 -u /home/maaru/.config/waybar/modules/waybar-media.py status
+python -m venv .venv
+paru -S python-pip
+source .venv/bin/
+source .venv/bin/activate
+pip install requarements.txt
+pip install -r requarements.txt
+python3 -u /home/maaru/.config/waybar/modules/player/mediaplayer.py -h
+paru -S syncedlyrics
+paru -S python-syncedlyrics
+python3 -u /home/maaru/.config/waybar/modules/player/mediaplayer.py
+python3 -u /home/maaru/.config/waybar/modules/player/mediaplayer.py monitor
+~/.config/waybar/modules/waybar-media.py monitor
+~/.config/waybar/modules/player/mkstyle.py monitor
+~/.config/waybar/modules/player/mediaplayer.py monitor
+~/.config/waybar/modules/mediaplayer.py monitor
+~/.config/waybar/modules/mediaplayer.py
+~/.config/waybar/modules/mediaplayer.py -h
+~/.config/waybar/modules/mediaplayer.py monigors
+source ./.venv/bin/activate
+...
+cd waybar
+~/.config/waybar/modules/player/mediaplayer.py next
+\:qa
+python3 -u /home/maaru/.config/waybar/modules/player/mkstyle.py
+python3 -u /home/maaru/.config/waybar/modules/player/mkstyle.py -h
+../bar -r
+./bar.py -r
+exit
+paru -S waybar-mpris-git
+pkill -f wabyar
+pkill -f wayb
+~/.config/waybar/modules/pacman_update.py
+ya pack -a orhnk/system-clipboard.yazi\
+
+ya pack -a orhnk/system-clipboard\
+
+ya pack -a grappas/wl-clipboard
+ya pack -m\
+
+ya pack -h\
+
+ya pack -a grappas/wl-clipboard\
+
+ya pack -u grappas/wl-clipboard\
+
+ya pack -u
+lua /home/maaru/.local/state/yazi/packages/be5d24ccfdd09c0b4d7e44a3a80386bb/main.lua
+ls ~/.local/state/yazi/packages/487c8c8ec5028db6de2a901a31dd74c2/E
+ya pack -u -h
+ya pack -h
+ya pack -i
+ls 487c8c8ec5028db6de2a901a31dd74c2
+git clone https://github.com/grappas/wl-clipboard.yazi 487c8c8ec5028db6de2a901a31dd74c2
+ya pack -a xmozoid/wl-clipboard
+poweroff
+sudo pacman -S git-credential-manager\
+
+ya pack -a ndtoan96/ouch
+sudo pacman -S nemo
+git add -A .; git commit -m "fix | waybar"; git push
+chmod +666 ./*
+chmod 666 .
+chmod 700 ~/.ssh && chmod 600 ~/.ssh/* && chmod 644 ~/.ssh/*.pub\
+
+git add -A .; git commit -m "clear"; git push
+mediainfo
+mediainfo -h
+mediainfo -h | grep "svg"
+nwg-dock-hyprland
+git commit -m "update | waybar"
+touch hello
+git add -A
+git add -A.
+;laskdfj
+r
+git rm --cached 4
+git rm 1
+git rm kamila
+git commit -m "add"
+lt --level 1
+lt --level 1 -a
+lt --level 3 -a
+lt --level 2 -a
+lt --level 2
+convert hands.png -fuzz 10% -transparent white output.png\
+
+convert user.png -fuzz 10% -transparent white output.png\
+
+convert user.png -fuzz 10% -transparent white output1.png\
+
+convert user.jpg -fuzz 10% -transparent white output1.png\
+
+git clone --depth 1 --single-branch git@github.com:maarutan/yazi-maaru.git
+git commit -m "update"
+ya pack -l
+YAZI="~/.config/yazi"; if [[ -d "$YAZI" ]] then mv "$YAZI" "$YAZI".bak\
+fi; git clone https://github.com/yourname/yamoon "$YAZI"\
+clear ; echo "welcome to yamoon :D" ; sleep 2 ; yazi || clear ; echo "no open yazi :( "\
+
+YAZI="~/.config/yazi"; if [[ -d "$YAZI" ]] then mv "$YAZI" "$YAZI".bak\
+fi; git clone https://github.com/maarutan/yamoon "$YAZI"\
+clear ; echo "welcome to yamoon :D" ; sleep 2 ; yazi || clear ; echo "no open yazi :( "\
+
+YAZI="$HOME/.config/yazi"; if [[ -d "$YAZI" ]] then mv "$YAZI" "$YAZI".bak\
+fi; git clone https://github.com/maarutan/yamoon "$YAZI"\
+clear ; echo "welcome to yamoon :D" ; sleep 2 ; yazi || clear ; echo "no open yazi :( "\
+
+TODAY=$(date +"%Y-%m-%d");YAZI="$HOME/.config/yazi";\
+if [[ -d "$YAZI" ]] then mv "$YAZI" "$YAZI".bak"$TODAY"\
+fi; git clone https://github.com/maarutan/yamoon "$YAZI"\
+clear ; echo "welcome to yamoon :D" ; sleep 2 ; yazi || clear ; echo "no open yazi :( "\
+
+TODAY=$(date +"%Y-%m-%d");YAZI="$HOME/.config/yazi";\
+if [[ -d "$YAZI" ]] then mv "$YAZI" "$YAZI"_"$TODAY".bak\
+fi; git clone https://github.com/maarutan/yamoon "$YAZI"\
+clear ; echo "welcome to yamoon :D" ; sleep 2 yazi; || clear ; echo "close yamoon :( "\
+
+\
+SCRIPT_PATH=$(realpath "${BASH_SOURCE[0]}")\
+echo "Ѓ�бсолу�тну�й пу�ту� скрипта: $SCRIPT_PATH"\
+
+bash /home/maaru/.config/yazi_/install.sh
+/home/maaru/.config/yazi_/install.sh
+/home/maaru/.config/yazi_/install.sh/maaru/.config/yazi/install.sh
+BASH_SOURCE[0]
+./install.sh
+chmod +x /home/maaru/.config/yazi/install.sh
+sh /home/maaru/.config/yazi/install.sh
+git add -A . ; git commit -m "update | install.sh" ; git push
+git add -A install.sh
+git commit -m "update | install.sh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh --curl)"
+sh -c "$(curl -fsSL "https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh --curl")"
+git add -A README.md ; git commit -m "update | README.md" ; git push
+git add -A install.sh ; git commit -m "update | install.sh" ; git push
+git clone --depth 1 --single-branch git@github.com:maarutan/yamoon.git
+git add -A .; git commit -m "update" ; git push
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh)" --curl
+mv ~/.config/yazi ~/.config/yazi_"$(date +"%Y-%m-%d-%s")".bak\
+git clone https://github.com/maarutan/yamoon.git ~/.config/yazi/\
+sh ~/.config/yazi/install.sh
+sh -c "(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh)" --curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh) --curl"\
+
+git add -A install.sh; git commit -m "install.sh" ; git push
+git add -A README.md; git commit -m "update | README.md" ; git push
+/home/maaru/.config/yazi/install.sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh)"\
+
+git add -A install.sh; git commit -m "update | install.sh" ; git push
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/install.sh)"
+mv ~/.config/yazi ~/.config/yazi_"$(date +"%Y-%m-%d-%s")".bak\
+git clone https://github.com/maarutan/yamoon.git ~/.config/yazi/\
+sh ~/.config/yazi/install.sh --nobackup
+sudo systemctl restart NetworkManager
+sudo decpkg -s
+sudo pacman -Syu
+sudo pacman -S obs-studio
+dr Videos
+cd /home/maaru
+pkill flameshot
+sudo pacman -Syu flameshot\
+
+flameshot gui --debug\
+
+flameshot gui --help\
+
+flameshot gui -c \
+
+flameshot -c \
+
+c
+flameshot
+slurp
+hyprctl -r
+hyprctl reload
+flameshot gui
+yazi
+git add -A .; git commit -m "update | README.md" ; git push
+ву�еу�
+figlet -f Calvin\ S build
+install
+which
+paru -S pyinstaller
+pyinstaller
+pyinstaller --onefile decpkg.py
+./decpkg
+./decpkg -s
+makepkg --printsrcinfo > .SRCINFO\
+
+lt -a .
+sudo rm /usr/bin/decpkg\
+
+LC_ALL=C pacman -V|sed -r 's#[0-9]+#4e9#g'|md5sum|cut -c1-6
+openssl
+ssh-keygen -t ed25519 -C "maratarzymatov288@gmail.com"\
+
+ssh -T git@github.com
+cat ~/.ssh/id_ed25519_git.pub\
+
+ssh -vT git@github.com\
+
+ssh -T git@github.com\
+
+ssh -T aur@aur.archlinux.org
+setsid telegram-desktop
+nmcli
+nmcli device
+nmcli d list
+nmcli d
+nmcli d -h
+nmcli d status
+nmcli d wifi
+pacman telegram-desktop
+pacman -S telegram-desktop
+sudo pacman -s telegram-desktop
+pkill telegram
+pkill waybar
+ping google.com
+./check_internet.py
+sudo pacman -R telegram-desktop
+sudo pacman -S telegram-desktop
+waybar
+nmtui
+timedatectl set-ntp 1
+date
+n
+git init -b main
+git remote add origin main
+git remote add origin git@github.com:maarutan/moonvim
+git remote set-url origin main git@github.com:maarutan/moonvim
+git remote set-url origin git@github.com:maarutan/moonvim
+git pull
+git clone git@github.com:maarutan/moonvim
+mv moonvim/ /home/maaru/.config/nvim
+makepkg -si
+git remote set-url origin aur@aur.archlinux.org
+git add -A .; git commit -m "first commit" ; git push
+ssh aur@aur.archlinux.org setup-repo decpkg\
+
+git add -A ,
+git add PKGBUILD\
+git commit --amend --no-edit\
+git push aur master --force\
+
+git reset $(git rev-list --max-parents=0 HEAD)\
+git add -A\
+git commit -m "initial commit with PKGBUILD"\
+
+git push aur master --force\
+
+git init -b master
+git remote add aur ssh://aur@aur.archlinux.org/decpkg.git\
+git push aur master\
+
+git commit -m "initial commit with PKGBUILD"\
+
+git push --set-upstream aur master
+git add .\
+git commit -m "Fix repository structure"\
+
+git push --set-upstream aur master --force
+git info
+rm -rf .git\
+git init\
+
+git add .\
+
+git push --set-upstream aur master\
+
+git remote remove aur\
+
+git remote remove origin\
+
+git remote add origin ssh://aur.archlinux.org/decpkg.git\
+
+git remote -v\
+
+rm .image/
+git add .\
+git commit -m "Remove unnecessary subdirectories"\
+
+git push --set-upstream origin master\
+
+git add -A\
+git commit --amend --no-edit\
+
+ssh://aur.archlinux.org/decpkg.git
+ssh ssh://aur.archlinux.org/decpkg.git
+ssh aur@aur.archlinux.org \
+
+ssh aur@aur.archlinux.org help
+ssh aur@aur.archlinux.org
+git add -A .\
+
+git push --force --set-upstream origin master\
+
+paru -Ss decpkg
+paru -Si decpkg\
+
+paru -Sy decpkg
+paru -Sy -a decpkg
+paru -S decpkg\
+
+paru -Syu\
+
+https://aur.archlinux.org/packages/decpkg
+ssh https://aur.archlinux.org/packages/decpkg
+decpkg
+cclear
+git commit -m "Initial commit with correct structure"\
+
+git push
+git status
+git reset 5cea098
+find . -type d\
+
+git add -A . ; git commit -m "fixed config generate" ; git push origin master
+paru -Syu decpkg
+micro
+ffmpeg -i input.mp4 -vcodec libx264 -crf 28 -preset veryfast -acodec aac -b:a 128k output.mp4\
+
+git clone git@github.com:maarutan/decpkg
+git add -A . ; git commit -m "update" ; git push origin master
+ll -a
+cd decpkg/
+git add -A . ; git commit -m "update | README.md" ; git push
+paru -R decpkg
+paru -Sa decpkg
+paru -S
+paru -Syya
+paru -Syy
+z .config/declarative_package/
+git clone aur@aur.archlinux.org:maarutan/decpkg
+pacman -R decpkg
+paru -Syu
+paru -Sya
+sudo pacman -R decpkg
+sudo pacman -Rns decpkg
+paru -Sya decpkg
+git clone ssh://aur@aur.archlinux.org/decpkg.git \
+
+git clone https://aur.archlinux.org/decpkg
+sudo pacman -Rns decpkg decpkg-debug
+paru -Rns decpkg
+paru -s decpkg
+decpkg -g
+matrix
+figlet -f Calvin\ S push
+figlet -f Calvin\ S logic
+python3 -u /home/maaru/.local/bin/dotfiles/start.py -h
+python3 -u /home/maaru/.local/bin/dotfiles/start.py --list
+python3 -u /home/maaru/.local/bin/dotfiles/logic/logic.py -s
+python3 -u /home/maaru/.local/bin/dotfiles/logic/logic.py -l
+python3 -u /home/maaru/.local/bin/dotfiles/start.py -l
+fc-list | grep -i 'nerd'\
+
+python3 -u /home/maaru/.local/bin/dotfiles/logic/logic.py
+_calendar
+paru -S calendar-bin
+cal
+calc
+calendar-bin
+calendar
+calendar -A
+paru -R calendar-bin
+python3 -u /home/maaru/.local/bin/push_dotfiles/start.py
+ssh git@github.com/maarutan
+ssh git@github.com/maarutan/moonvim
+celar
+dpython3 -u /home/maaru/.local/bin/dotfiles/tests.py
+python -v
+python -h
+python -V
+rm! dotfiles/
+sudo rm -rf dist/
+c;ar
+thon3 -u /home/maaru/.local/bin/dotfiles/tests.py
+cealrpython3 -u /home/maaru/.local/bin/dotfiles/tests.py
+python3 -u /home/maaru/.local/bin/dotfiles/tests.py
+python3 -u /home/maaru/.local/bin/dotfiles/start.py
+`python3 -u /home/maaru/Documents/dotfiles/start.py`
+ls yazi/
+python3 -u /home/maaru/Documents/dotfiles/tests.py
+figlet -f Calvin\ S .git exist
+figlet -f Calvin\ S .git exispython3 -u /home/maaru/Documents/dotfiles/start.pyt
+figlet -f Calvin\ S git clone
+q
+git add -A . ; git commit -m "update | yazi" ; git push
+git add -A . ; git commit -m " " ; git push
+python3 -u /home/maaru/Documents/dotfiles/logic/logic.py
+kkpython3 -u /home/maaru/Documents/dotfiles/start.py
+lls
+git rm --cached .config/yazi/.git
+lt .
+lt -a level=2 .
+iclear
+lt -a level=1 .
+lt -a --level=1
+lt -a --level=1 .
+git ls-files | grep yazi/.git\
+
+git rm --cached -r .config/yazi/.git\
+
+git submodule deinit -f -- .config/yazi/.git\
+rm -rf .git/modules/.config/yazi/.git\
+
+.config/yazi/.git/\
+
+55python3 -u /home/maaru/Documents/dotfiles/start.py
+cd dotfiles/
+git add -A . ; git commit -m "clear" ; git push
+lpython3 -u /home/maaru/Documents/dotfiles/start.py
+python3 -u /home/maaru/Documents/dotfiles/start.py
+clar
+git init -b main\
+git add -A .\
+git remote add origin git@github.com:maarutan/dotpusher.git\
+git push -u origin main
+git commit -m "first commit" ; git push
+git commit -m "first commit" ; git push --set-upstream origin mainh
+git push --force --set-upstream origin main \
+
+git rm --cached __pycache__/ \
+
+git add -A .
+git commit -m "update | gitignore "
+git rm --cached .current.log\
+
+git rm --cached logic/__pycache__/\
+
+git rm --cached logic/__pycache__/ -r\
+
+3python3 -u /home/maaru/Documents/dotpusher/start.py
+sudo pacman -S wl-clipboard-history
+sudo pacman -S wl-clip-persist
+hyprswitch
+decode
+paru -S decode
+z rofi
+python3 -u /home/maaru/.config/rofi/launchers/clipboard/wayland_clipboard.py
+cliphist decode
+paru -S cliphist
+hyprctl workspaces
+z /home/maaru/.config/rofi/
+z script
+chmod +x ./*
+chmod +x ./**
+echo "Welcome, $(whoami)! Today is $(date)."\
+echo "System load: $(uptime | awk '{print $9}')"\
+
+echo "Welcome back, $(whoami)! Last login: $(last -n 1 | awk 'NR==1{print $4, $5, $6, $7}')"\
+echo "System uptime: $(uptime -p)"\
+
+sudo pacman -S ly
+lt
+lyn
+rn
+ly
+sudo systemctl enable ly.service
+sudo systemctl disable sddm
+sudo systemctl stop sddm
+rn /etc/ly/config.ini
+sudo -E nvim /etc/ly/config.ini
+ly-dm
+z way
+./bar.py -d
+./bar.py -e
+./bar.py -a
+rn sudo nano /etc/vconsole.conf\
+
+sudo nvim /etc/vconsole.conf\
+
+sudo nvim /etc/ly/config.ini\
+
+nvim /etc/grub
+sudo -e nvim /etc/default/grub
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ar
+reboot
+nvim /etc/ly/config.ini
+sudo -e /etc/ly/config.ini
+sudo -e nvim /etc/ly/config.ini
+nvim ~/.inputrc
+sudo systemctl restart ly.service
+rm! ~/.inputrc
+sudo pacman -S lua
+sudo pacman -S rust
+sudo pacman -S go
+mpvpaper
+ll
+decpkg -s
+python3 -u /home/maaru/.local/bin/keyboard/hypr_keyboardswitch.py
+btop
+dunst -c /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+dunst -h
+pkill dunst
+zsh
+сду�у�к
+pkill -f dunst
+тму�у�
+nvim
+dunst -conf /home/maaru/.local/bin/keyboard/dunst_style/dunstrc
+dunst -conf /home/maaru/.config/dunst/type/volume/dunstrc
+nmcli d w list
+nmcli d w connect Geeks\ 2/3 --asjk
+nmcli d w connect Geeks\ 2/3 --ask
+paru -S decpkg
+~
+echo ~
+ls ~/.config/kitty
+figlet -f Calvin\ S kitty
+git
+z zsh
+git add -A . ; git commit -m "update | .gitignore" ; git push
+python3 -u /home/maaru/Documents/dotpusher/test.py
+ls -ld ~/.config/yazi\
+
+dunst
+setsid dunst
+z
+git add -A . ; git commit -m "reset" ; git push
+git rm --cached base.json\
+
+у�
+./start.py
+bluetui
+
+lsblk
+ls /etc/ly/config.ini
+thon3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+git add -A . ; git commit -m "update" ; git push
+ex
+cd dotpusher/
+thon3 -u /home/maaru/Documents/dotpusher/start.py
+nmcli d w show
+echo hello
+lt -a --level=2 .
+ls
+cd dist/
+cd moonvim/ ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; git add -A ; git commit -m "clear"; git push ;
+..
+cd moonvim/ ; rm! nvim ; git add -A ; git commit -m "clear"; git push ; .. ; cd yamoon/ ; rm! yazi ; git add -A ; git commit -m "clear"; git push ;
+python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+git add -A . ; git commit -m "new fitch | copy to inside" ; git push
+python3 -u /home/maaru/Documents/dotpusher/start.py
+git pull origin main
+clear
+git pull origin
+e
+cls
+: 1745315881:0;ls
+: 1745315881:0;e
+: 1745315884:0;clear
+: 1745315888:0;git clone --depth 1 --single-branch git@github.com:maarutan/yamoon.git
+: 1745315891:0;git clone --depth 1 --single-branch git@github.com:maarutan/yamoon.git .
+: 1745315895:0;e
+: 1745315909:0;git add -A . ; git commit -m "new fitch | copy to inside" ; git push
+: 1745315914:0;clear
+: 1745315915:0;e
+: 1745315918:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745315945:0;:qa
+: 1745315946:0;e
+: 1745315977:0;clear
+: 1745315986:0;git push --force --set-upstream origin main \
+
+: 1745315990:0;e
+: 1745315994:0;git push --force --set-upstream origin main \
+
+: 1745316020:0;e
+: 1745316460:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745316498:0;clear
+: 1745317022:0;figlet -f Calvin\ S a
+: 1745317063:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317065:0;clear
+: 1745317070:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317077:0;clear
+: 1745317095:0;figlet -f Calvin\ S b
+: 1745317121:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317122:0;clear
+: 1745317127:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317128:0;clear
+: 1745317141:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317143:0;clear
+: 1745317158:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317159:0;clear
+: 1745317164:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317165:0;clear
+: 1745317168:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317170:0;clear
+: 1745317174:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317179:0;clear
+: 1745317183:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317199:0;clear
+: 1745317217:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317219:0;clear
+: 1745317224:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317225:0;clear
+: 1745317230:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317231:0;clear
+: 1745317241:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317242:0;clear
+: 1745317264:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317282:0;clear
+: 1745317282:0;thon3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317283:0;clear
+: 1745317284:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317286:0;clear
+: 1745317293:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317294:0;clear
+: 1745317303:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317304:0;clear
+: 1745317316:0;figlet -f Calvin\ S s
+: 1745317320:0;figlet -f Calvin\ S c
+: 1745317349:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317351:0;clear
+: 1745317372:0;figlet -f Calvin\ S qwertyuiopasdfbnm
+: 1745317376:0;clear
+: 1745317378:0;figlet -f Calvin\ S qwertyuiopasdfbnm
+: 1745317395:0;figlet -f Calvin\ S "`1234567890-=qwertyuiop[]\asdfgh`zxcvbnm,./"
+: 1745317400:0;figlet -f Calvin\ S `1234567890-=qwertyuiop[]\asdfgh`zxcvbnm,./
+: 1745317404:0;figlet -f Calvin\ S 1234567890-=qwertyuiop[]\asdfgh`zxcvbnm,./
+: 1745317406:0;figlet -f Calvin\ S 1234567890-=qwertyuiop[]\asdfgh`zxcvbnm,.
+: 1745317408:0;figlet -f Calvin\ S 1234567890-=qwertyuiop[]\asdfgh`zxcvbnm,
+: 1745317412:0;figlet -f Calvin\ S 1234567890-=qwertyuiop[]\asdfghzxcvbnm
+: 1745317417:0;figlet -f Calvin\ S 1234567890-=qwertyuiop[]asdfghzxcvbnm
+: 1745317423:0;figlet -f Calvin\ S 1234567890-=qwertyuiopasdfghzxcvbnm
+: 1745317436:0;figlet -f Calvin\ S qwertyuiopasdfbnm
+: 1745317638:0;clear
+: 1745317652:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317653:0;clear
+: 1745317655:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317675:0;clear
+: 1745317687:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317688:0;clear
+: 1745317698:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317700:0;clear
+: 1745317708:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317710:0;clear
+: 1745317846:0;figlet -f Calvin\ S qwertyuiopasdfghjklzxcvbnm
+: 1745317904:0;figlet -f Calvin\ S b
+: 1745317934:0;figlet -f Calvin\ S c
+: 1745317959:0;figlet -f Calvin\ S d
+: 1745317984:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317985:0;clear
+: 1745317992:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745317993:0;clear
+: 1745317997:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318001:0;figlet -f Calvin\ S f
+: 1745318025:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318027:0;clear
+: 1745318042:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318047:0;figlet -f Calvin\ S git
+: 1745318050:0;figlet -f Calvin\ S g
+: 1745318053:0;clear
+: 1745318068:0;figlet -f Calvin\ S cd /home/maaru
+: 1745318073:0;figlet -f Calvin\ S cd h
+: 1745318076:0;figlet -f Calvin\ S h
+: 1745318077:0;clear
+: 1745318079:0;figlet -f Calvin\ S cd /home/maaru
+: 1745318082:0;clear
+: 1745318087:0;figlet -f Calvin\ S h
+: 1745318089:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318102:0;figlet -f Calvin\ S i
+: 1745318117:0;figlet -f Calvin\ S j
+: 1745318118:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318139:0;figlet -f Calvin\ S k
+: 1745318167:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318170:0;figlet -f Calvin\ S l
+: 1745318186:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318188:0;clear
+: 1745318194:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318195:0;clear
+: 1745318198:0;figlet -f Calvin\ S m
+: 1745318201:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318210:0;figlet -f Calvin\ S n
+: 1745318216:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318246:0;clear
+: 1745318266:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318268:0;clear
+: 1745318269:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318271:0;figlet -f Calvin\ S o
+: 1745318280:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318284:0;figlet -f Calvin\ S p
+: 1745318295:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318298:0;clear
+: 1745318316:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318321:0;figlet -f Calvin\ S q
+: 1745318354:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318357:0;figlet -f Calvin\ S r
+: 1745318366:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318379:0;clear
+: 1745318380:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318384:0;figlet -f Calvin\ S r
+: 1745318388:0;clear
+: 1745318394:0;figlet -f Calvin\ S rs
+: 1745318396:0;figlet -f Calvin\ S s
+: 1745318403:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318404:0;clear
+: 1745318422:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318431:0;figlet -f Calvin\ S t
+: 1745318451:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318473:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py ; figlet -f Calvin\ S u
+: 1745318486:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py ; figlet -f Calvin\ S v
+: 1745318520:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318522:0;clear
+: 1745318532:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py ; figlet -f Calvin\ S u
+: 1745318535:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py ; figlet -f Calvin\ S v
+: 1745318558:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py ; figlet -f Calvin\ S w
+: 1745318566:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318569:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py ; figlet -f Calvin\ S x
+: 1745318593:0;clear
+: 1745318604:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py ; figlet -f Calvin\ S y
+: 1745318617:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py ; figlet -f Calvin\ S z
+: 1745318678:0;clear
+: 1745318686:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318702:0;figlet -f Calvin\ S r
+: 1745318730:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318775:0;clear
+: 1745318776:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318777:0;clear
+: 1745318782:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318783:0;clear
+: 1745318785:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318791:0;figlet -f Calvin\ S kamila
+: 1745318795:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318800:0;figlet -f Calvin\ S marat
+: 1745318811:0;clear
+: 1745318946:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745318947:0;clear
+: 1745319032:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319067:0;clear
+: 1745319067:0;thon3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319069:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319704:0;clear
+: 1745319708:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319709:0;clear
+: 1745319718:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319719:0;clear
+: 1745319761:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319762:0;clear
+: 1745319777:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319778:0;clear
+: 1745319796:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319797:0;clear
+: 1745319812:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319813:0;clear
+: 1745319818:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319819:0;clear
+: 1745319824:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319833:0;clear
+: 1745319837:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319838:0;clear
+: 1745319882:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319883:0;clear
+: 1745319886:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319887:0;clear
+: 1745319934:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319935:0;clear
+: 1745319944:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319945:0;clear
+: 1745319954:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319955:0;clear
+: 1745319959:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319960:0;clear
+: 1745319962:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319962:0;clear
+: 1745319974:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319975:0;clear
+: 1745319981:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745319981:0;clear
+: 1745319998:0;figlet -f ANSI\ Shadow
+: 1745320057:0;figlet -f ANSI\ Shadow a
+: 1745320112:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320114:0;clear
+: 1745320119:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320168:0;clear
+: 1745320170:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320171:0;clear
+: 1745320172:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320173:0;clear
+: 1745320213:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320214:0;clear
+: 1745320231:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320232:0;clear
+: 1745320241:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320251:0;clear
+: 1745320263:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320264:0;clear
+: 1745320298:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320300:0;clear
+: 1745320307:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320309:0;clear
+: 1745320347:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320348:0;clear
+: 1745320379:0;figlet -f ANSI\ Shadow b
+: 1745320436:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320437:0;clear
+: 1745320440:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320441:0;clear
+: 1745320447:0;figlet -f ANSI\ Shadow c
+: 1745320469:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320483:0;clearpython3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320485:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320507:0;figlet -f ANSI\ Shadow c
+: 1745320515:0;figlet -f ANSI\ Shadow d
+: 1745320549:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320562:0;clear
+: 1745320565:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320576:0;clear
+: 1745320592:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320610:0;clear
+: 1745320614:0;python3 -u /home/maaru/Documents/dotpusher/logic/acssi_fonts.py
+: 1745320947:0;clear
+: 1745321216:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745321217:0;clear
+: 1745321233:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745321281:0;clear
+: 1745321283:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321323:0;clear
+: 1745321324:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321369:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745321370:0;clear
+: 1745321371:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321372:0;clear
+: 1745321377:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745321378:0;clear
+: 1745321380:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321392:0;clear
+: 1745321395:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321396:0;clear
+: 1745321399:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321408:0;clear
+: 1745321414:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321415:0;clear
+: 1745321427:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321428:0;clear
+: 1745321431:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745321432:0;clear
+: 1745323203:0;e
+: 1745323399:0;clear
+: 1745323400:0;e
+: 1745324515:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745324516:0;clear
+: 1745324526:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745324527:0;clear
+: 1745324849:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745324850:0;clear
+: 1745324855:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745324856:0;clear
+: 1745324946:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745324947:0;clear
+: 1745324952:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745324954:0;clear
+: 1745324959:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745324975:0;clear
+: 1745325089:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745325090:0;clear
+: 1745325093:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325105:0;clear
+: 1745325153:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325155:0;clear
+: 1745325174:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325175:0;clear
+: 1745325185:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745325186:0;clear
+: 1745325187:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325221:0;clear
+: 1745325222:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325244:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745325245:0;clear
+: 1745325246:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745325247:0;clear
+: 1745325851:0;e
+: 1745326008:0;bluetui
+: 1745326711:0;git add -A . ; git commit -m "new fitch" ; git push
+: 1745327515:0;bluetui
+: 1745329141:0;у�
+: 1745329142:0;e
+: 1745329292:0;curl ascii.live/nyan
+: 1745329314:0;clear
+: 1745329970:0;у�
+: 1745329971:0;e
+: 1745330002:0;lsblk
+: 1745330003:0;clear
+: 1745330006:0;lsblk
+: 1745330030:0;clear
+: 1745330031:0;lsblk
+: 1745330032:0;clear
+: 1745330035:0;e
+: 1745330039:0;lsblk
+: 1745330042:0;clear
+: 1745446031:0;e
+: 1745472943:0;nmcli d w list
+: 1745472947:0;nmcli d w connect Lavrovyh\ 14
+: 1745472956:0;clear
+: 1745472970:0;nmcli d w list
+: 1745472974:0;clear
+: 1745472976:0;nmcli d w list
+: 1745472982:0;nmcli d w connect Redmi\ 9C\ NFC
+: 1745472994:0;nmcli d w connect Redmi\ 9C\ NFC --ask
+: 1745451535:0;e
+: 1745457554:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745457579:0;btop
+: 1745457589:0;clear
+: 1745457709:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745458280:0;poweroff
+: 1745478986:0;e
+: 1745479499:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745479519:0;clear
+: 1745480476:0;bluetui
+: 1745483388:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745483880:0;clear
+: 1745483884:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745483940:0;clear
+: 1745484440:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745484472:0;clear
+: 1745484655:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745485590:0;clear
+: 1745485592:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745485705:0;bluetui
+: 1745485837:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745486087:0;clear
+: 1745486089:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745486609:0;clear
+: 1745486617:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745487326:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745487329:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745487400:0;git add -A . ; git commit -m "new fitch" ; git push
+: 1745487404:0;clear
+: 1745487404:0;e
+: 1745487555:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745487556:0;clear
+: 1745487557:0;thon3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745487559:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745489300:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745489301:0;clear
+: 1745489302:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745489377:0;clear
+: 1745489458:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745489490:0;clear
+: 1745489515:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745489517:0;clear
+: 1745489559:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745489566:0;clear
+: 1745489612:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745489613:0;clear
+: 1745489614:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745489724:0;clear
+: 1745489724:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745489868:0;clear
+: 1745490029:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745490048:0;clear
+: 1745490117:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745490119:0;clear
+: 1745490120:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745490128:0;clear
+: 1745490128:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745490767:0;clear
+: 1745490780:0;ls
+: 1745490813:0;git add -A . ; git commit -m "fixed | simaticsо" ; git push
+: 1745490817:0;clear
+: 1745490886:0;e
+: 1745490890:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745490891:0;clear
+: 1745490897:0;python3 -u /home/maaru/Documents/dotpusher/start.py -l
+: 1745490899:0;clear
+: 1745491079:0;git add -A . ; git commit -m "fixed | simaticsо" ; git push
+: 1745491252:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745491747:0;clear
+: 1745491889:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745492082:0;cd dotfiles/;git add -A . ; git commit -m "clear" ; git push ; ..
+: 1745492096:0;cd ./moonvim/ ;git add -A . ; git commit -m "clear" ; git push ; ..
+: 1745492106:0;cd ./yamoon/ ;git add -A . ; git commit -m "clear" ; git push ; ..
+: 1745492110:0;clear
+: 1745492112:0;e
+: 1745492130:0;python3 -u /home/maaru/Documents/dotpusher/start.py
