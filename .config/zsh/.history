@@ -1065,3 +1065,6 @@ cls
 : 1745457579:0;btop
 : 1745457589:0;clear
 : 1745457709:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745458280:0;poweroff
+: 1745478986:0;e
+: 1745479499:0;python3 -u /home/maaru/Documents/dotpusher/start.py
