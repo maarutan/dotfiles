@@ -1184,3 +1184,154 @@ cls
 : 1745497023:0;clear
 : 1745497023:0;e
 : 1745497028:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745497281:0;clear
+: 1745497394:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745498157:0;clear
+: 1745498161:0;python3 -u /home/maaru/Documents/dotpusher/logic/logic.py
+: 1745498162:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745498168:0;clear
+: 1745498401:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745498407:0;clear
+: 1745566694:0;bluetui
+: 1745566950:0;python3 -u /home/maaru/Documents/dotpusher/test.py
+: 1745567159:0;figlet -f Calvin\ S +
+: 1745567180:0;python3 -u /home/maaru/Documents/dotpusher/test.py
+: 1745567181:0;clear
+: 1745567182:0;python3 -u /home/maaru/Documents/dotpusher/test.py
+: 1745567192:0;clear
+: 1745567207:0;python3 -u /home/maaru/Documents/dotpusher/test.py
+: 1745567221:0;clear
+: 1745567224:0;python3 -u /home/maaru/Documents/dotpusher/test.py
+: 1745567237:0;clear
+: 1745567238:0;python3 -u /home/maaru/Documents/dotpusher/test.py
+: 1745567245:0;clear
+: 1745567276:0;figlet -f Calvin\ S m
+: 1745567316:0;echo \033[4m marat
+: 1745567321:0;echo "\033[4m" marat
+: 1745567332:0;echo "\033[1m" marat
+: 1745567350:0;figlet -f 3d marat
+: 1745567355:0;figlet -f 1943____ marat
+: 1745567360:0;figlet -f 3D-ASCII marat
+: 1745567371:0;figlet -f ANSI\ Shadow marat
+: 1745567381:0;figlet -f Calvin\ S marat
+: 1745567521:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745567615:0;clear
+: 1745567618:0;:qa
+: 1745567619:0;he
+: 1745567619:0;e
+: 1745567727:0;ls
+: 1745567727:0;e
+: 1745567795:0;git reset c2d12cc965fcc01f72b937a6e0dffeb1e029e839
+: 1745567806:0;git pull origin main
+: 1745567813:0;git reset c2d12cc965fcc01f72b937a6e0dffeb1e029e839
+: 1745567921:0;Ñƒ£
+: 1745567922:0;e
+: 1745568463:0;nvim counder.py
+: 1745568523:0;python3 -u /home/maaru/counder.py
+: 1745568528:0;clear
+: 1745568533:0;python3 -u /home/maaru/counder.py
+: 1745568548:0;clear
+: 1745568554:0;python3 -u /home/maaru/counder.py
+: 1745569001:0;clear
+: 1745569002:0;python3 -u /home/maaru/counder.py
+: 1745569060:0;clear
+: 1745569061:0;python3 -u /home/maaru/counder.py
+: 1745569072:0;clear
+: 1745569679:0;python3 -u /home/maaru/counder.py
+: 1745569680:0;clear
+: 1745569684:0;python3 -u /home/maaru/counder.py
+: 1745569912:0;clear
+: 1745569926:0;python3 -u /home/maaru/counder.py
+: 1745569953:0;clear
+: 1745570004:0;python3 -u /home/maaru/counder.py
+: 1745570031:0;clear
+: 1745570099:0;python3 -u /home/maaru/counder.py
+: 1745570703:0;clear
+: 1745570704:0;python3 -u /home/maaru/counder.py
+: 1745570707:0;clear
+: 1745570770:0;python3 -u /home/maaru/counder.py
+: 1745570774:0;clear
+: 1745570817:0;python3 -u /home/maaru/counder.py
+: 1745570824:0;clear
+: 1745588842:0;e
+: 1745589134:0;notify-send -h
+: 1745589136:0;notify-send --h
+: 1745589138:0;notify-send help
+: 1745589142:0;notify-send -help
+: 1745589143:0;notify-send --help
+: 1745589341:0;e
+: 1745589707:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745589709:0;clear
+: 1745589725:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745589728:0;clear
+: 1745589739:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745589743:0;clear
+: 1745589907:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745654976:0;bluetui
+
+: 1745655017:0;bluetui
+: 1745655027:0;sudo systemctl enable bluetooth.service
+: 1745655033:0;sudo systemctl restart bluetooth.service
+: 1745655037:0;bluetui
+: 1745655203:0;wayvibes
+: 1745655212:0;clear
+: 1745655214:0;e
+: 1745655788:0;python
+
+: 1745656286:0;Ñƒ£
+: 1745656287:0;e
+: 1745656292:0;nvim test.py
+: 1745656616:0;python3 -u /home/maaru/test.py
+: 1745656623:0;clear
+: 1745656624:0;python3 -u /home/maaru/test.py
+: 1745657220:0;clear
+: 1745657239:0;python3 -u /home/maaru/test.py
+: 1745657254:0;clear
+: 1745657426:0;python3 -u /home/maaru/test.py
+: 1745657427:0;clear
+: 1745657484:0;python3 -u /home/maaru/test.py
+: 1745657619:0;clear
+: 1745657776:0;python3 -u /home/maaru/test.py
+: 1745657869:0;clear
+: 1745658359:0;python3 -u /home/maaru/test.py
+: 1745658360:0;clear
+: 1745658392:0;python3 -u /home/maaru/test.py
+: 1745658394:0;clear
+: 1745658401:0;python3 -u /home/maaru/test.py
+: 1745658588:0;clear
+: 1745658617:0;python3 -u /home/maaru/test.py
+: 1745658635:0;clear
+: 1745658686:0;python3 -u /home/maaru/test.py
+: 1745658753:0;clear
+: 1745658757:0;python3 -u /home/maaru/test.py
+: 1745658758:0;clear
+: 1745658770:0;python3 -u /home/maaru/test.py
+: 1745658971:0;clear
+: 1745659000:0;python3 -u /home/maaru/test.py
+: 1745659001:0;clear
+: 1745659073:0;python3 -u /home/maaru/test.py
+: 1745659074:0;clear
+: 1745659082:0;python3 -u /home/maaru/test.py
+: 1745659083:0;clear
+: 1745659109:0;python3 -u /home/maaru/test.py
+: 1745659229:0;clear
+: 1745659250:0;python3 -u /home/maaru/test.py
+: 1745659279:0;clear
+: 1745659292:0;python3 -u /home/maaru/test.py
+: 1745659324:0;clear
+: 1745659344:0;python3 -u /home/maaru/test.py
+: 1745659346:0;clear
+: 1745659391:0;python3 -u /home/maaru/test.py
+: 1745659451:0;clear
+: 1745659480:0;python3 -u /home/maaru/test.py
+: 1745659619:0;clear
+: 1745660372:0;e
+: 1745661001:0;bluetui
+: 1745661226:0;e
+: 1745661267:0;python3 -u /home/maaru/Documents/dotpusher_1/start.py
+: 1745661600:0;clear
+: 1745661600:0;python3 -u /home/maaru/Documents/dotpusher_1/start.py
+: 1745661667:0;clear
+: 1745661701:0;git clone --depth 1 --single-branch git@github.com:maarutan/dotpusher
+: 1745661705:0;e
+: 1745662118:0;python3 -u /home/maaru/Documents/dotpusher/start.py
