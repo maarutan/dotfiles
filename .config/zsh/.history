@@ -1415,3 +1415,5 @@ notify-send -u critical "Уведомление" "Ѓ�ритиу�еский пр�
 : 1745666124:0;clear
 : 1745666124:0;e
 : 1745666127:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745666337:0;e
+: 1745666610:0;python3 -u /home/maaru/Documents/dotpusher/start.py
