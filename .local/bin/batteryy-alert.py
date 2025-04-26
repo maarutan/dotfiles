@@ -1,6 +1,6 @@
 #!/usr/bin/python
-
 CRITICAL = 10
+DELAY_NOTIFY = "5000"  # is ms
 LOW = 20
 BATTERY_PATH_DYNAMIC = True
 BATTERY_PATH = "/sys/class/power_supply/BAT0"
@@ -83,6 +83,7 @@ def monitor_battery():
             if last_state != "FULL" and status == "Full":
                 notify(
                     title="Battery full",
+                    time=DELAY_NOTIFY,
                     message="Your battery is fully charged.",
                     lvl="i",
                 )

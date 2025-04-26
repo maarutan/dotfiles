@@ -19,22 +19,23 @@ setopt hist_ignore_all_dups     # Duplicate of HIST_IGNORE_ALL_DUPS: Ignores dup
 setopt hist_save_no_dups        # Removes duplicates from history file when saving at session end
 setopt CORRECT                  # Auto Correct command
 setopt CORRECT_ALL              # Auto Correct command All
-#- unset 
+#- unset
 unsetopt AUTO_REMOVE_SLASH      # Disables automatic removal of trailing slashes in directory paths
 unsetopt HIST_EXPIRE_DUPS_FIRST # Disables removing older duplicates first during history cleanup
 unsetopt EXTENDED_HISTORY       # Disables saving timestamps in history
 
 # ---- Path ----
 export GOPATH="$HOME/.config/go"
-export PATH="$HOME/.local/share/nvim/mason/bin: \  
-             $HOME/.cargo/bin:                  \ 
-             $HOME/.local/bin:                  \ 
-             $HOME/.npm-global/bin:             \ 
-             $HOME/.go/bin:                     \ 
-             $HOME/.cargo/bin:$PATH"
 
+LIST_PATH=(
+    "$HOME/.local/bin"
+    "$HOME/.local/share/nvim/mason/bin"
+    "$HOME/.npm-global/bin"
+    "$HOME/.cargo/bin"
+)
+export PATH="$(IFS=:; echo "${LIST_PATH[*]}"):$PATH"
 
-# ---- Autoload 
+# ---- Autoload
 autoload -U compinit; compinit
 zmodload zsh/complist
 autoload -Uz edit-command-line; zle -N edit-command-line
@@ -42,7 +43,7 @@ autoload -Uz edit-command-line; zle -N edit-command-line
 # ---- Software specific ----
 export EDITOR="nvim"                # default EDITOR = nvim
 export VISUAL="nvim"                # devault VISUAL EDITOR = nvim
-export QT_QPA_PLATFORMTHEME=qt5ct   # support qt5 theme 
+export QT_QPA_PLATFORMTHEME=qt5ct   # support qt5 theme
 
 # History settings
 HISTFILE=$ZSH_CONFIG/".history"      # where your history ???
@@ -55,7 +56,7 @@ eval "$(zoxide init zsh)"           # Initialize zoxide
 # ----- Completion Configuration -----
 zstyle ":completion:*:*:*:*:*" menu select   # enable menu at completion
 zstyle ":completion:*" use-cache yes         # save completion in cache for fast review
-zstyle ":completion:*" special-dirs true     # review dir 
+zstyle ":completion:*" special-dirs true     # review dir
 zstyle ":completion:*" squeeze-slashes true  # squeeze slashes
 zstyle ":completion:*" file-sort change      # last file check if you change -----------------------------
 zstyle ":completion:*" matcher-list "m:{[:lower:][:upper:]}={[:upper:][:lower:]}" "r:|=*" "l:|=* r:|=*" # |
@@ -66,20 +67,20 @@ zstyle ':completion:*:warnings' format '%b%B%U%S%w%u%s' # font type for completi
 
 #  ----- FZF configuration -----
 export FZF_DEFAULT_OPTS="
-            --height=100%                 \
-            --border                       \
-            --preview '([[ -d {} ]]         \
+--height=100%                 \
+    --border                       \
+    --preview '([[ -d {} ]]         \
             && eza --tree --level=3          \
             --icons {} || bat --style=numbers \
-            --color=always {} || cat {})'
+    --color=always {} || cat {})'
 "
 if [[ -v __FZF_PREVIEW ]]; then
 	unset __FZF_PREVIEW
 FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS
-    --preview='(                    
-    bat --color=always {} ||        
-    tree -ahpCL 3 $__TREE_IGNORE {} 
-    ) 2>/dev/null | head -n 100'"
+--preview='(
+    bat --color=always {} ||
+    tree -ahpCL 3 $__TREE_IGNORE {}
+) 2>/dev/null | head -n 100'"
 fi
 
 

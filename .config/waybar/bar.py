@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import random
 import re
 import pathlib
 import json
@@ -136,6 +137,8 @@ def path_theme_image() -> tuple[list[str], list[str]]:
 
 def get_info_image() -> list[str]:
     only_names, abs_paths = path_theme_image()
+    random.shuffle(only_names)
+    random.shuffle(abs_paths)
     return [f"{name}\x00icon\x1f{path}" for name, path in zip(only_names, abs_paths)]
 
 
