@@ -1345,3 +1345,54 @@ cls
 : 1745662405:0;git add -A . ; git commit -m "clear" ; git push
 : 1745662412:0;e
 : 1745662422:0;python3 -u /home/maaru/Documents/dotpusher/start.py
+: 1745662463:0;clear
+: 1745662472:0;git add -A . ; git commit -m "fixed_bug" ; git push
+: 1745662476:0;clear
+: 1745662478:0;e
+: 1745662759:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745662760:0;clear
+: 1745662796:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745662923:0;clear
+: 1745663024:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663046:0;clear
+: 1745663066:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663082:0;e
+: 1745663112:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663394:0;clear
+: 1745663403:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663426:0;/sys/class/power_supply/BAT1
+: 1745663427:0;e
+: 1745663440:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663447:0;clear
+: 1745663447:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663511:0;clear
+: 1745663521:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663534:0;clear
+: 1745663536:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663588:0;clear
+: 1745663596:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663640:0;notify-send --help
+: 1745663661:0;notify-send -u low hello
+: 1745663668:0;notify-send -u normal hello
+: 1745663672:0;notify-send -u=normal hello
+: 1745663790:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745663845:0;notify-send -u low "Уведомление" "Ѓ�изкий приоритет"\
+notify-send -u normal "Уведомление" "Ѓ�бу�у�ну�й приоритет"\
+notify-send -u critical "Уведомление" "Ѓ�ритиу�еский приоритет"\
+
+: 1745663854:0;e
+: 1745663927:0;bluetui
+: 1745664074:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745664101:0;clear
+: 1745664104:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745664152:0;clear
+: 1745664292:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745664316:0;clear
+: 1745664317:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745664318:0;clear
+: 1745664487:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745664489:0;clear
+: 1745664623:0;python3 -u /home/maaru/.local/bin/battery/batteryy-alert.py
+: 1745664659:0;clear
+: 1745665284:0;e
+: 1745665601:0;python3 -u /home/maaru/Documents/dotpusher/start.py
