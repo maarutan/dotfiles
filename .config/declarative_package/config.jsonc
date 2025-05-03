@@ -1,0 +1,200 @@
+//  ▓█████▄ ▓█████  ▄████▄   ██▓███   ██ ▄█▀  ▄████
+//  ▒██▀ ██▌▓█   ▀ ▒██▀ ▀█  ▓██░  ██▒ ██▄█▒  ██▒ ▀█▒
+//  ░██   █▌▒███   ▒▓█    ▄ ▓██░ ██▓▒▓███▄░ ▒██░▄▄▄░
+//  ░▓█▄   ▌▒▓█  ▄ ▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▓██ █▄ ░▓█  ██▓
+//  ░▒████▓ ░▒████▒▒ ▓███▀ ░▒██▒ ░  ░▒██▒ █▄░▒▓███▀▒
+//   ▒▒▓  ▒ ░░ ▒░ ░░ ░▒ ▒  ░▒▓▒░ ░  ░▒ ▒▒ ▓▒ ░▒   ▒
+//   ░ ▒  ▒  ░ ░  ░  ░  ▒   ░▒ ░     ░ ░▒ ▒░  ░   ░
+//   ░ ░  ░    ░   ░        ░░       ░ ░░ ░ ░ ░   ░
+//     ░       ░  ░░ ░               ░  ░         ░
+//   ░             ░
+//
+//  (Copyright (c) 2025 maaru.tan \ Marat Arzymatov. All Rights Reserved.)
+//  https://github.com/maarutan/decpkg 
+//
+//  ------------------------------------------------
+{
+  // Startup
+  "logo_ascii"   : false, // there will be a logo at the beginning. 
+  "absolute_sync": true , // absolute installation where you clearly specify what to remove and what to install if a package is not in the list, then it will be removed. 
+  "relative_sync": false, // Relative package installation it you can determine which packages to install but not remove, If you installed through the carrier option you will have to uninstall manually. 
+  "noconfirm"    : true , // If that's true, then the packets will settle without confirmation.  
+
+  // Updates package
+  "update_pkg_with_install": false, // You can upgrade your system before you start installing your packages.
+  "update_counter"         : false, // If you choose to update the system before installation you can see the number of updates. 
+
+  "update_pacman" : true,  // allow pacman to be updated first  
+  "update_aur"    : true,  // allow Arch User Rep to be updated first 
+  "update_flatpak": false, // allow flatpak to be updated first
+
+  // set root
+  "use_root"  : "sudo",  // To install packages you need to have super user rights in order to install them. 
+
+  // aur 
+  "aur_helper": "paru",  // Better aur helper utils.
+
+  // other
+  "notify"    : false,   // If you want to be notified.
+  "packages": [
+    {
+      "pacman": [
+        // Wayland
+        "hyprland",
+        "slurp",
+        "waybar",
+        "wlr-randr",
+        "xdg-desktop-portal-hyprland",
+        "wl-clipboard",
+        "nwg-look",
+        "swww",
+        "grim",
+        "nwg-dock-hyprland",
+        "cliphist",
+        "wl-clip-persist",
+
+
+        // terminal utils cli, tui, 
+        "git",
+        "openssh",
+        "terminus-font",
+        "base",
+        "base-devel",
+        "unzip",
+        "zip",
+        "tar",
+        "ouch",
+        "figlet",
+        "feh",
+        "btop", 
+        "mediainfo",
+        "bc",
+        "calc",
+        "ripgrep",
+        "fzf",
+        "jq",
+        "brightnessctl",
+        "udisks2",
+        "wget",
+        "github-cli",
+
+        //image
+        "imagemagick",
+
+        //fetchs
+        "neofetch", 
+        "fastfetch", 
+
+        // shell
+        "zsh",
+        "z",
+        "bat",
+        "zoxide",
+        "eza",
+
+        // file manager 
+        "yazi", // tui 
+        "nemo", // gui 
+
+        // audio utils
+        "pipewire-alsa",
+        "pipewire-pulse",
+        "pavucontrol",
+
+        // editor 
+        "vim",      // tui
+        "neovim",   // tui
+        "nano",     // tui
+
+        //packages manager
+        "npm", 
+        "python-pip",
+
+        //languages
+        "nodejs", 
+        "python",
+        "lua",
+        "rust",
+        "go",
+
+        // media utils
+        "mpv",
+        "ffmpeg",
+        "obs-studio",
+
+        // app launcher
+        "rofi",
+        "rofi-emoji",
+
+        // application
+        "telegram-desktop",
+        "firefox",
+
+        //notifications
+        "dunst",
+        "libnotify",
+
+        //trash
+        "trash-cli",
+
+        //blootooth
+        "bluetui", // tui
+        "bluez",
+        "bluez-utils",
+        "blueman",
+
+        // python libs
+        "python-psutil",
+        "python-fastapi",
+        "python-argcomplete",
+        "python-pillow",
+
+        // qt libs
+        "qt6-svg",
+        "qt6-multimedia",
+        "qt6-virtualkeyboard",
+
+        // fonts
+        "noto-fonts-cjk",
+        "noto-fonts",
+        "ttf-fira-code",
+        "ttf-firacode-nerd",
+        "ttf-cascadia-code",
+        "ttf-cascadia-code-nerd",
+        "ttf-cascadia-mono-nerd",
+        "ttf-jetbrains-mono",
+        "ttf-jetbrains-mono-nerd",
+        "ttf-font-awesome",
+      ]
+    },
+    {
+      "aur": [
+        // Wayland
+        "hyprswitch",
+        "wl-clipboard-history-git",
+        "wayvibes-git",
+
+        //fetchs
+        "pfetch",
+        "nerdfetch",
+
+        //terminal utils cli, tui,
+        "rich-cli",
+
+        //video utils
+        "mpvpaper",
+
+        //screenshots
+        "flameshot-git",
+
+        // fonts
+        "ttf-apple-emoji",
+        "figlet-fonts-extra",
+        "figlet-fonts",
+
+        // python libs
+        "python-screeninfo",
+      ]
+    }
+  ]
+}
