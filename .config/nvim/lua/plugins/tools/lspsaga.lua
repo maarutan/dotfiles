@@ -1,7 +1,9 @@
+local border = require("core.options").border
+local mode = vim.api.nvim_get_mode().mode
 require("lspsaga").setup({
 	ui = {
 		winbar_prefix = "    ",
-		border = "rounded",
+		border = border,
 		devicon = true,
 		foldericon = true,
 		title = true,
@@ -106,12 +108,15 @@ require("lspsaga").setup({
 		},
 	},
 	rename = {
-		in_select = true,
+		in_select = false,
 		auto_save = false,
 		project_max_width = 0.5,
 		project_max_height = 0.5,
 		keys = {
-			quit = "<C-k>",
+			quit = {
+				"<ESC>",
+				"<C-c>",
+			},
 			exec = "<CR>",
 			select = "x",
 		},
@@ -186,3 +191,5 @@ require("lspsaga").setup({
 		width = 0.7,
 	},
 })
+
+vim.api.nvim_set_option("winhighlight", "WinBar:Normal,WinBarNC:NormalNC")

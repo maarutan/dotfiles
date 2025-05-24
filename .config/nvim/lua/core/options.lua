@@ -5,10 +5,12 @@
 -------------------------------------------------------------------------
 
 -- General options --
+local border = "single" -- "rounded" | "single" | "double"  | "none"
 vim.loader.enable() -- fast loader.
 vim.opt.syntax = "off" -- Disable syntax highlighting
--- vim.opt.mouse = "" -- Mouse options.
+vim.opt.mouse = "" -- Mouse options.
 vim.opt.number = true -- Set numbers.
+vim.opt.termguicolors = true
 vim.opt.relativenumber = true -- Set relativenumber.
 vim.opt.expandtab = true --  `Tab` will be converted to spaces.
 vim.opt.tabstop = 2 -- Number of spaces a `tab` character displays as (visual width).
@@ -73,8 +75,8 @@ vim.opt.updatetime = 100 -- Faster updates for responsiveness, but may increase 
 vim.opt.timeoutlen = 500 -- Adjust how quickly vim processes key combinations
 
 -- Scrolling settings
-vim.opt.scrolloff = 8 -- Keep int lines visible above and below the cursor when scrolling vertically
-vim.opt.sidescrolloff = 8 -- Keep int columns visible to the left and right of the cursor when scrolling horizontally
+vim.opt.scrolloff = 4 -- Keep int lines visible above and below the cursor when scrolling vertically
+vim.opt.sidescrolloff = 4 -- Keep int columns visible to the left and right of the cursor when scrolling horizontally
 
 -- File handling settings
 vim.opt.swapfile = false -- Disable swap files (no temporary swap files will be created)
@@ -90,3 +92,7 @@ vim.opt.undodir = undodir -- Set the directory for undo files
 
 vim.cmd([[cabbrev Q q]])
 vim.cmd([[cabbrev W w]])
+
+return {
+	border = border,
+}

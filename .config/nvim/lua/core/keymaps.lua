@@ -26,21 +26,34 @@ bind("n", "<C-k>", "<C-w>k", opts) -- focus on up
 bind("n", "<C-l>", "<C-w>l", opts) -- focus on right
 
 -- Window resizing
-bind("n", "<A-S-h>", ":vertical resize -30<cr>", opts) -- decrease width
-bind("n", "<A-S-l>", ":vertical resize +30<cr>", opts) -- increase width
-bind("n", "<A-S-j>", ":resize -5<cr>", opts) -- decrease height
-bind("n", "<A-S-k>", ":resize +5<cr>", opts) -- increase height
+-- bind("n", "<A-S-l>", ":vertical resize -10<cr>", opts) -- decrease width
+-- bind("n", "<A-S-h>", ":vertical resize +10<cr>", opts) -- increase width
+-- bind("n", "<A-S-j>", ":resize -5<cr>", opts) -- decrease height
+-- bind("n", "<A-S-k>", ":resize +5<cr>", opts) -- increase height
 
-bind("n", "<A-S-Right>", ":vertical resize -30<cr>", opts) -- decrease width
-bind("n", "<A-S-Left>", ":vertical resize +30<cr>", opts) -- increase width
-bind("n", "<A-S-Down>", ":resize -5<cr>", opts) -- decrease height
-bind("n", "<A-S-Up>", ":resize +5<cr>", opts) -- increase height
+bind("n", "<A-S-l>", [[<cmd>lua Resize.ver("+2", 20)<CR>]], opts)
+bind("n", "<A-S-h>", [[<cmd>lua Resize.ver("-2", 20)<CR>]], opts)
+
+bind("n", "<A-S-j>", [[<cmd>lua Resize.hor("+1", 30)<CR>]], opts)
+bind("n", "<A-S-k>", [[<cmd>lua Resize.hor("-1", 30)<CR>]], opts)
+
+bind("n", "<A-S-Right>", [[<cmd>lua Resize.ver("+2", 20)<CR>]], opts)
+bind("n", "<A-S-Left>", [[<cmd>lua Resize.ver("-2", 20)<CR>]], opts)
+bind("n", "<A-S-Down>", [[<cmd>lua Resize.hor("+1", 30)<CR>]], opts)
+bind("n", "<A-S-Up>", [[<cmd>lua Resize.hor("-1", 30)<CR>]], opts)
 
 -- Search highlight clear
 bind("n", "<S-C-n>", ":nohl<CR>", opts) -- clear search highlight
 
 -- Select all text
-bind("n", "<C-a>", "ggVG", opts) -- select all text
+-- bind("n", "<C-a>", "<cmd>normal! ma ggVG`a<CR>", opts)
+bind("n", "<C-a>", "<cmd>SelectAll<CR>", opts)
+
+-- Scroll(Up / Down)
+vim.keymap.set("n", "<C-d>", "<cmd>ScrollDown<CR>")
+vim.keymap.set("n", "<C-u>", "<cmd>ScrollUp<CR>")
+vim.keymap.set("x", "<C-d>", "<cmd>ScrollDown<CR>")
+vim.keymap.set("x", "<C-u>", "<cmd>ScrollUp<CR>")
 
 -- Replace x functionality
 bind("n", "x", "d", opts) -- now x is equal to delete
@@ -48,8 +61,8 @@ bind("v", "x", "d", opts) -- now x is equal to d in visual mode
 bind("n", "xx", "dd", opts) -- now xx is equal to delete line
 
 -- Terminal tab creation
-bind("n", "<leader>tT", ":tabnew | terminal<CR>", opts) -- create new terminal tab
-bind("n", "<leader>T", ":term<CR>", opts) -- create new terminal
+-- bind("n", "<leader>tT", ":tabnew | terminal<CR>", opts) -- create new terminal tab
+-- bind("n", "<leader>T", ":term<CR>", opts) -- create new terminal
 
 -- Open init.lua
 bind("n", "<leader>oc", function()
@@ -84,6 +97,7 @@ bind("c", "<A-l>", "<Right>", noremap) -- move cursor right
 --
 bind("c", "<A-0>", "<C-b>", noremap) -- move cursor to the beginning of the line
 bind("c", "<A-4>", "<C-e>", noremap) -- move cursor to the end of the line
+bind("n", "<A-d>", "<C-e>", noremap) -- move cursor to the end of the line
 --
 bind("c", "<A-w>", "<C-Right>", noremap) -- move cursor to the beginning of the line
 bind("c", "<A-e>", "<C-Right>", noremap) -- move cursor to the beginning of the line
@@ -92,6 +106,9 @@ bind("c", "<A-b>", "<C-Left>", noremap) -- move cursor to the beginning of the l
 -- Write File ( Save )
 bind("n", "<C-s>", "<cmd>write<CR>", opts) -- save current buffer
 bind("i", "<C-s>", "<cmd>write<CR>", opts) -- save current buffer
+
+bind("i", "<C-cr>", "<cmd>write<CR>", opts) -- save current buffer
+bind("n", "<C-cr>", "<cmd>write<CR>", opts) -- save current buffer
 
 -- plus point and minus point
 bind("n", "=", "<C-a>", opts) -- plus point
@@ -104,15 +121,17 @@ bind("n", "-", "<C-x>", opts) -- minus point
 
 -- Terminal toggling
 -- WARN: dependence: https://github.com/akinsho/toggleterm.nvim
-bind("n", "<leader>tf", ":ToggleTerm direction=float<CR>", opts) -- toggle Terminal floating
-bind("n", "<leader>th", ":ToggleTerm direction=horizontal<CR>", opts) --  toggle Terminal horizontally
-bind("n", "<leader>tv", ":ToggleTerm direction=vertical size=40<CR>", opts) -- toggle Terminal vertically
+bind("n", "<leader>tf", "<cmd>ToggleTerm direction=float<CR>", opts) -- toggle Terminal floating
+bind("n", "<leader>th", "<cmd>ToggleTerm direction=horizontal<CR>", opts) --  toggle Terminal horizontally
+bind("n", "<leader>tv", "<cmd>ToggleTerm direction=vertical size=60<CR>", opts) -- toggle Terminal vertically
 
 -- Buffer management
 -- WARN: dependence: https://github.com/famiu/bufdelete.nvim
-bind("n", "<leader>bd", "<cmd>Bdelete<CR>", opts) -- close current buffer
+bind("n", "<leader>bd", "<cmd>BDelete<CR>", opts) -- close current buffer
 bind("n", "<A-q>", ":close<CR>", opts) -- close current tabs
 bind("n", "<A-S-q>", "<cmd>quitall!<CR>", opts) -- force quit
+bind("n", "<leader>bD", "<cmd>BTrash<CR>", opts) -- delete current file
+bind("n", "<leader>bc", "<cmd>BCreateFile<CR>", opts) -- delete current file
 
 -- Neotree mappings
 -- WARN: dependence: https://github.com/nvim-neo-tree/neo-tree.nvim
@@ -162,24 +181,30 @@ vim.api.nvim_set_keymap("n", "<leader>h", "<cmd>lua require'hop'.hint_words()<CR
 bind("n", "<leader>nu", "<cmd>lua Snacks.notifier.hide()<CR>", opts) -- hide notify
 bind("n", "<leader>nh", "<cmd>lua Snacks.notifier.show_history()<CR>", opts) -- history notify
 -- snacks `Telescope`
-bind("n", "<leader>fw", "<cmd>lua Snacks.picker.grep_word()<CR>", opts) -- search with grep
-bind("n", "<leader>fW", "<cmd>lua Snacks.picker.grep()<CR>", opts) -- search with grep
+bind("n", "<leader>fW", "<cmd>lua Snacks.picker.grep_word()<CR>", opts) -- search with grep
+bind("n", "<leader>fw", "<cmd>lua Snacks.picker.grep()<CR>", opts) -- search with grep
 bind("n", "<leader>fb", "<cmd>lua Snacks.picker.buffers()<CR>", opts) -- search buffers
 bind("n", "<leader>fr", "<cmd>lua Snacks.picker.recent()<CR>", opts) -- search recent
-bind("n", "<leader>fR", "<cmd>lua Snacks.picker.recent({cwd = vim.fn.stdpath('config')})<CR>", opts) -- search recent
-bind("n", "<leader>fg", "<cmd>lua Snacks.picker.git_files()<CR>", opts) -- search git files
 bind("n", "<leader>fp", "<cmd>lua Snacks.picker.projects()<CR>", opts) -- search projects
 bind("n", "<leader>fc", "<cmd>lua Snacks.picker.colorschemes()<CR>", opts) -- theme list
 bind("n", "<leader>fu", "<cmd>lua Snacks.picker.undo()<CR>", opts) -- undo list
-bind("n", "<leader>ff", "<cmd>lua Snacks.picker.files()<CR>", opts) -- undo list
-bind("n", "<leader>fF", "<cmd>lua Snacks.picker.files({cwd = vim.fn.stdpath('config')})<CR>", opts) -- undo list
+bind("n", "<leader>ff", "<cmd>lua Snacks.picker.files()<CR>", opts) -- find files list
 bind("n", "<leader>:", "<cmd>lua Snacks.picker.commands()<CR>", opts) -- theme list
-bind("n", "<leader>;", "<cmd>lua Snacks.picker.command_history()<CR>", opts) -- theme list
-bind("n", "<leader>fh", "<cmd>lua Snacks.picker.help()<CR>", opts) -- theme list
+bind("n", "<leader>;", "<cmd>lua Snacks.picker.command_history()<CR>", opts) -- cmdline history list
+bind("n", "<leader>fh", "<cmd>lua Snacks.picker.help()<CR>", opts) -- plugin and more help
+--git
+bind("n", "<leader>gb", "<cmd>lua Snacks.picker.git_branches()<CR>", opts) -- git branches
+bind("n", "<leader>gd", "<cmd>lua Snacks.picker.git_diff()<CR>", opts) -- git diff
+bind("n", "<leader>gl", "<cmd>lua Snacks.lazygit()<CR>", opts) -- lazy git
 
--- Dashboard
--- WARN: dependence: https://github.com/folke/snacks.nvim
+-- snacks `Buffer`
+bind("n", "<leader>br", "<cmd>lua Snacks.rename.rename_file()<CR>", opts) -- rename current file
+
+-- snacks `Dashboard`
 bind("n", "<leader>dd", "<cmd>lua Snacks.dashboard()<CR>", opts) -- open Dashboard
+
+-- -- snacks  `Terminal`
+-- bind("n", "<C-t>", "<cmd>lua Snacks.terminal.toggle()<CR>", opts) -- open Dashboard
 
 -- Yazi file manager
 -- WARN: dependence: https://github.com/floke/yazi

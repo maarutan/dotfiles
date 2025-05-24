@@ -25,19 +25,17 @@ alias ~="cd ~"
 ## system ##
 ############
 alias cls="clear && exec $(basename $SHELL)"
-alias cls!="clear"
-alias rzh="rm -rf $HOME/.zsh/.zsh_history"
-alias nzh="nvim $HOME/.zsh/.zsh_history"
+alias nzsh="cd $ZSH_CONFIG; nvim $ZSH_CONFIG/init"
 alias ex="exit"
 alias pg="ping google.com"
-alias fl="touch"
-alias dr="mkdir"
+alias th="touch"
+alias mkd="mkdir"
 alias rm!="rm -rf"
 alias rm="rm -r"
 alias ll="eza -l -g --icons"
-alias la='exa -a --icons --color'
-alias lt='exa --tree --icons --color'
-alias ls='exa --icons --color=auto'
+alias la='eza -a --icons --color'
+alias lt='eza --tree --icons --color'
+alias ls='eza --icons --color=auto'
 alias e=$"EXPLORE"
 alias re="sudo -E \${ROOTEXPLORE}"
 alias n=$"EDITOR"
@@ -49,7 +47,6 @@ alias cpp="copypath"
 ###########
 alias walchoice="$HOME/wallpapers/.choise.sh"
 alias gay="$HOME/.suckless/scripts/gay.sh"
-alias nzsh="nvim ~/.zshrc"
 alias hzsh="nvim $HOME/.zsh/.zsh_history"
 alias matrix="unimatrix -b -s 95  -c blue"
 alias neo="$HOME/.config/neofetch/.startFetch.sh"
@@ -58,3 +55,4 @@ alias fetch="$HOME/.suckless/scripts/fetch.sh"
 alias pwall="$HOME/.suckless/scripts/PicWall.sh"
 alias clock="peaclock"
 alias goo="/usr/bin/go"
+# alias

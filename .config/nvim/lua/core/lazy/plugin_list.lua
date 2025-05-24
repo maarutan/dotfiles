@@ -1,8 +1,15 @@
 return {
 	{ "catppuccin/nvim" }, -- colorscheme
+	{ "shaunsingh/nord.nvim" }, -- colorscheme
+	{ "Tsuzat/NeoSolarized.nvim" }, -- colorscheme
+	{ "kvrohit/substrata.nvim" }, -- colorscheme
 	{ "katawful/kat.nvim" }, -- colorscheme
+	{ "craftzdog/solarized-osaka.nvim" }, -- colorscheme
+	{ "maxmx03/solarized.nvim" }, -- colorscheme
 	{ "projekt0n/github-nvim-theme" }, -- colorscheme
 	{ "EdenEast/nightfox.nvim" }, -- colorscheme,
+	{ "nyoom-engineering/oxocarbon.nvim" }, -- colorscheme,
+	{ "rose-pine/neovim" }, -- colorscheme,
 	{ "Koalhack/koalight.nvim" }, -- colorscheme
 	{ "marko-cerovac/material.nvim" }, -- colorscheme
 	{ "ellisonleao/gruvbox.nvim" }, -- colorscheme
@@ -14,7 +21,6 @@ return {
 	{ "binhtran432k/dracula.nvim" }, -- colorscheme
 	{ "shaunsingh/moonlight.nvim" }, -- colorscheme
 	{ "akinsho/toggleterm.nvim" }, -- toggle terminal
-	{ "famiu/bufdelete.nvim" }, -- proper buffer closure
 	{ "nvim-neo-tree/neo-tree.nvim" }, -- file explorer
 	{ "nvim-lua/plenary.nvim" }, --  Lua utils for Neovim
 	{ "nvim-tree/nvim-web-devicons" }, -- Provides file type icons for Neovim plugins like nvim-tree, enhancing visual navigation.
@@ -23,7 +29,6 @@ return {
 	{ "hadronized/hop.nvim" }, -- Fast and efficient symbol/word jumping for improved navigation in Neovim.
 	{ "folke/todo-comments.nvim" }, -- INFO: Highlight and manage `TODO` comments in Neovim.
 	{ "nvim-telescope/telescope.nvim" }, -- Fuzzy finder and picker for Neovim.
-	{ "debugloop/telescope-undo.nvim" }, -- Undo history as Telescope picker.
 	{ "nvim-telescope/telescope-file-browser.nvim" }, -- File browser extension for Telescope.
 	{ "rcarriga/nvim-notify" }, -- Fancy notification manager for Neovim.
 	{ "maarutan/nvim-nocut" }, -- uncut on removal.
@@ -61,6 +66,8 @@ return {
 	{ "nvimdev/lspsaga.nvim" }, -- more opportunities for lsp
 	{ "neovim/nvim-lspconfig" }, -- lsp supprot for nvim
 	{ "hrsh7th/nvim-cmp" }, -- cmp for nvim
+	{ "hrsh7th/cmp-nvim-lua" }, -- cmp for nvim
+	{ "hrsh7th/cmp-calc" }, -- cmp for nvim
 	{ "hrsh7th/cmp-nvim-lsp" }, -- cmp for nvim
 	{ "hrsh7th/cmp-buffer" }, -- cmp for nvim
 	{ "hrsh7th/cmp-path" }, -- cmp for nvim
@@ -82,4 +89,10 @@ return {
 	{ "folke/trouble.nvim" }, -- optional
 	{ "barrett-ruth/live-server.nvim", build = "pnpm add -g live-server" }, -- live server for html
 	{ "maarutan/coderunner.nvim" }, -- run code in nvim
+	{ "azratul/live-share.nvim", dependencies = "jbyuki/instant.nvim" }, -- live share for nvim
+	{ "brenoprata10/nvim-highlight-colors" }, -- highlighting colors
+	-- { "pocco81/auto-save.nvim" }, -- auto save like vscode
+	{ "fei6409/log-highlight.nvim" }, -- highlighting log files
+	-- { "karb94/neoscroll.nvim" }, -- smooth scroll for neovim
+	{ "echasnovski/mini.animate" }, -- animation for nvim
 }

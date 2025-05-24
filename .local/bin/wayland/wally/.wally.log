@@ -1,0 +1,97 @@
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 17:46:02
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 17:46:02
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 17:46:02
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 17:46:02
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 17:46:02
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 17:46:02
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 17:46:02
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 17:46:02
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 17:46:02
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 17:46:02
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 17:46:02
+Info   | config get_relative_path: 'NoneType' object has no attribute 'with_segments' | 21.05.2025 | 17:46:02
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 17:46:02
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 17:46:02
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 17:46:02
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 17:46:02
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 17:46:02
+Info   | config get_relative_path: 'NoneType' object has no attribute 'with_segments' | 21.05.2025 | 17:46:02
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 18:00:41
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 18:00:41
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 18:00:41
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 18:01:52
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 18:01:52
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 18:01:52
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 18:04:40
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 18:04:40
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 18:04:40
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:11:44
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:11:44
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:11:44
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:11:44
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:11:44
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:11:46
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:11:46
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:11:46
+Info   | config refresh_wallpaper_data: [Errno 21] Is a directory: '.' | 21.05.2025 | 23:11:46
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:08
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:08
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:08
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:12:08
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:08
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:08
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:08
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:12:08
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:08
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:08
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:08
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:08
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:08
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:08
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:18
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:18
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:12:18
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:18
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:18
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:12:18
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:18
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:18
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:18
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:18
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:27
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:27
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:27
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:12:27
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:27
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:27
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:27
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:12:27
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:27
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:27
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:27
+Info   | config get_config: 'ConfigHandler' object has no attribute 'global_config_data' | 21.05.2025 | 23:12:27
+Info   | config get_config: [Errno 21] Is a directory: '/home/maaru/.local/share/wally' | 21.05.2025 | 23:12:27
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:12:27
+Info   | config refresh_wallpaper_data: [Errno 21] Is a directory: '.' | 21.05.2025 | 23:14:46
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 23:30:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:30:18
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:30:18
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 23:30:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:30:18
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:30:18
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 23:30:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:30:18
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 23:30:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:30:18
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:30:18
+Info   | config get_relative_path: 'NoneType' object has no attribute 'with_segments' | 21.05.2025 | 23:30:18
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 23:30:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:30:18
+Info   | config get_config: Expecting value: line 1 column 1 (char 0) | 21.05.2025 | 23:30:18
+Info   | config get_config_option: 'NoneType' object has no attribute 'get' | 21.05.2025 | 23:30:18
+Info   | config get_expanded_path: expected str, bytes or os.PathLike object, not NoneType | 21.05.2025 | 23:30:18
+Info   | config get_relative_path: 'NoneType' object has no attribute 'with_segments' | 21.05.2025 | 23:30:18

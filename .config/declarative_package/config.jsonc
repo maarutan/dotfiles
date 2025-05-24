@@ -77,6 +77,7 @@
         "udisks2",
         "wget",
         "github-cli",
+        "lazygit",
 
         //image
         "imagemagick",
@@ -125,6 +126,7 @@
         // app launcher
         "rofi",
         "rofi-emoji",
+        "wofi",
 
         // application
         "telegram-desktop",
@@ -174,12 +176,19 @@
         "wl-clipboard-history-git",
         "wayvibes-git",
 
+        // application
+        "tofi",
+
         //fetchs
         "pfetch",
         "nerdfetch",
 
         //terminal utils cli, tui,
         "rich-cli",
+
+        //application
+        "vencord",
+        "zen",
 
         //video utils
         "mpvpaper",

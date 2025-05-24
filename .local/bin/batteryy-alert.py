@@ -6,8 +6,8 @@ OPTIMAL = 80
 LOW = 20
 CRITICAL = 10
 
-BATTERY_PATH_DYNAMIC = True
-BATTERY_PATH = "/sys/class/power_supply/BAT0"
+BATTERY_PATH_DYNAMIC = False
+# BATTERY_PATH = "/sys/class/power_supply/BAT0"
 
 
 import os
@@ -15,6 +15,9 @@ import time
 from subprocess import run
 from shutil import which
 from pathlib import Path
+
+BATTERY_PATH = Path.home() / "battery"
+
 from typing import Literal
 
 
@@ -51,27 +54,30 @@ def notify(
         print("\n  WARN !!! not found: libnotify\n")
 
 
-def get_battery_path() -> str:
+def get_battery_path() -> Path | None:
+    power_supply_path = Path("/sys/class/power_supply/")
     if BATTERY_PATH_DYNAMIC:
-        power_supply_path = "/sys/class/power_supply/"
-        for entry in os.listdir(power_supply_path):
-            if entry.startswith("BAT"):
-                try:
-                    return os.path.join(power_supply_path, entry)
-                except:
-                    return "Battery not found"
-        return "Battery not found"
+        for entry in power_supply_path.iterdir():
+            if entry.name.startswith("BAT") and entry.is_dir():
+                return entry
+        return None
     else:
-        return BATTERY_PATH
+        path = Path(BATTERY_PATH)
+        return path if path.is_dir() else None
 
 
 def read_file(path: Path) -> str:
-    with open(path, "r") as f:
-        return f.read().strip()
+    try:
+        return path.read_text(encoding="utf-8").strip()
+    except Exception as e:
+        print(f"Error reading {path}: {e}")
+        return ""
 
 
 def bat_lvl() -> str:
-    battery_path = Path(get_battery_path())
+    battery_path = get_battery_path()
+    if not battery_path:
+        return "0"
     capacity_file = battery_path / "capacity"
     return read_file(capacity_file)
 
@@ -84,55 +90,45 @@ def monitor_battery():
             capacity = int(read_file(battery_path / "capacity"))
             status = read_file(battery_path / "status")
 
-            if last_state != "FULL" and status == "Full":
-                notify(
-                    title="Battery full",
-                    time=DELAY_NOTIFY,
-                    message="Your battery is fully charged.",
-                    lvl="i",
-                )
-                last_state = "FULL"
+            if status == "Charging":
+                if last_state != "FULL" and capacity >= OPTIMAL and capacity < 100:
+                    notify(
+                        title="Battery optimal",
+                        time=DELAY_NOTIFY,
+                        message="Your battery is charged optimally.",
+                        lvl="i",
+                    )
+                    last_state = "CHARGING"
 
-            if (
-                last_state not in ("FULL", "LOW", "CRITICAL")
-                and status == "Charging"
-                and capacity <= OPTIMAL
-            ):
-                notify(
-                    title="Battery optimal",
-                    time=DELAY_NOTIFY,
-                    message="Your battery is charge optimally.",
-                    lvl="i",
-                )
-                last_state = "FULL"
+                elif last_state != "FULL" and capacity == 100:
+                    notify(
+                        title="Battery full",
+                        time=DELAY_NOTIFY,
+                        message="Your battery is fully charged.",
+                        lvl="i",
+                    )
+                    last_state = "FULL"
 
-            if (
-                last_state not in ("LOW", "CRITICAL")
-                and status == "Discharging"
-                and capacity <= LOW
-            ):
-                notify(
-                    title="Battery low",
-                    time=DELAY_NOTIFY,
-                    message=f"Battery level is at {capacity}%. Please charge soon.",
-                    lvl="w",
-                )
-                last_state = "LOW"
+            elif status == "Discharging":
+                if last_state != "LOW" and capacity <= LOW:
+                    notify(
+                        title="Battery low",
+                        time=DELAY_NOTIFY,
+                        message=f"Battery level is at {capacity}%. Please charge soon.",
+                        lvl="w",
+                    )
+                    last_state = "LOW"
 
-            if (
-                last_state != "CRITICAL"
-                and status == "Discharging"
-                and capacity <= CRITICAL
-            ):
-                notify(
-                    title="Battery critical",
-                    time=DELAY_NOTIFY,
-                    message=f"Battery level is at {capacity}%. Charge immediately!",
-                    lvl="w",
-                )
-                last_state = "CRITICAL"
+                elif last_state != "CRITICAL" and capacity <= CRITICAL:
+                    notify(
+                        title="Battery critical",
+                        time=DELAY_NOTIFY,
+                        message=f"Battery level is at {capacity}%. Charge immediately!",
+                        lvl="w",
+                    )
+                    last_state = "CRITICAL"
 
-        time.sleep(60)
+            time.sleep(60)
 
 
 if __name__ == "__main__":
