@@ -1,5 +1,6 @@
 local border = require("core.options").border
 local inputs = require("neo-tree.ui.inputs")
+
 vim.diagnostic.config({
 	signs = {
 		text = {
@@ -37,12 +38,6 @@ local function smoothScroll(key, delay, stop_int)
 			counter = counter + 1
 			vim.cmd("normal! " .. key)
 
-			if is_cursor_bottom() then
-				vim.cmd("normal! gg")
-			elseif is_cursor_top() then
-				vim.cmd("normal! G")
-			end
-
 			if counter == stop_int then
 				counter = 0
 				timer:stop()
@@ -50,25 +45,6 @@ local function smoothScroll(key, delay, stop_int)
 			end
 		end)
 	)
-end
-
-local function up_down_handler(up)
-	local before = vim.api.nvim_win_get_cursor(0)[1]
-
-	if up then
-		vim.cmd("normal! k")
-	else
-		vim.cmd("normal! j")
-	end
-
-	local after = vim.api.nvim_win_get_cursor(0)[1]
-	local total = vim.api.nvim_buf_line_count(0)
-
-	if before == 1 and up then
-		vim.cmd("normal! G")
-	elseif before == total and not up then
-		vim.cmd("normal! gg")
-	end
 end
 
 require("neo-tree").setup({
@@ -83,7 +59,6 @@ require("neo-tree").setup({
 				".venv",
 				".venv",
 				"venv",
-				"pyrightconfig.json",
 				".pyrightconfig.json",
 				"node_modules",
 			},
@@ -109,9 +84,6 @@ require("neo-tree").setup({
 
 				["d"] = "trash",
 				["u"] = "restore",
-
-				["k"] = "up",
-				["j"] = "down",
 
 				["<C-h>"] = "toggle_hidden",
 
@@ -149,21 +121,15 @@ require("neo-tree").setup({
             ]])
 			end,
 		},
+
 		{
 			event = require("neo-tree.events").FILE_OPENED,
 			handler = function()
-				vim.api.nvim_create_autocmd("BufReadPost", {
-					callback = function()
-						for _, buf in ipairs(vim.api.nvim_list_bufs()) do
-							if
-								vim.api.nvim_buf_get_name(buf) == ""
-								and vim.api.nvim_buf_get_option(buf, "buftype") == ""
-							then
-								vim.api.nvim_buf_delete(buf, { force = true })
-							end
-						end
-					end,
-				})
+				for _, buf in ipairs(vim.api.nvim_list_bufs()) do
+					if vim.api.nvim_buf_get_name(buf) == "" and vim.api.nvim_buf_get_option(buf, "buftype") == "" then
+						vim.api.nvim_buf_delete(buf, { force = true })
+					end
+				end
 			end,
 		},
 		{
@@ -189,14 +155,6 @@ require("neo-tree").setup({
 			smoothScroll("j", 30, 3)
 		end,
 
-		up = function(state)
-			up_down_handler(true)
-		end,
-
-		down = function(state)
-			up_down_handler(false)
-		end,
-
 		trash = function(state)
 			if witch("trash-put") then
 				local node = state.tree:get_node()
@@ -204,7 +162,7 @@ require("neo-tree").setup({
 					return
 				end
 				local _, name = require("neo-tree.utils").split_path(node.path)
-				local msg = string.format("Are you sure you want to trash '%s'?", name)
+				local msg = string.format("you want to trash '%s' ???", name)
 				inputs.confirm(msg, function(confirmed)
 					if not confirmed then
 						return
@@ -279,33 +237,6 @@ require("neo-tree").setup({
 			return nil
 		end,
 
-		abs_path = function(state)
-			local node = state.tree:get_node()
-			if node and node.type == "file" then
-				local file_path = node:get_id()
-				local last_notification_id = nil
-
-				-- Show file path function
-				local function show_file_path()
-					if file_path == "" then
-						file_path = "File doesn't exist"
-					else
-						-- Replace the home directory path with ~
-						file_path = file_path:gsub(vim.env.HOME, "~")
-					end
-
-					-- Display the file path with notification
-					last_notification_id = vim.notify(file_path, vim.log.levels.WARN, {
-						title = "Current File 🚀",
-						replace = last_notification_id, -- Correctly refer to the variable
-						timeout = 3000, -- Show notification for 3 seconds
-					})
-				end
-
-				-- Call the function to show the file path
-				show_file_path()
-			end
-		end,
 		open_and_clear_filter = function(state)
 			local node = state.tree:get_node()
 			if node and node.type == "file" then

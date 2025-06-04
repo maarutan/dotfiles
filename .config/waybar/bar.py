@@ -27,7 +27,9 @@ def enable_bar():
 
 def disable_bar():
     TMP_FILE.write_text("disable")
-    subprocess.run(["killall", "waybar"])
+    result = subprocess.run(["killall", "waybar"])
+    if result.returncode != 0:
+        subprocess.run(["pkill", "-x", ".waybar-wrapped"])
 
 
 def autostart():

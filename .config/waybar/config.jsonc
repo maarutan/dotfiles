@@ -38,7 +38,7 @@
 
 "modules-right": [
 "cava",
-"custom/pacman",
+// "custom/pacman",
 "tray",
 "custom/network_speed",
 "memory",

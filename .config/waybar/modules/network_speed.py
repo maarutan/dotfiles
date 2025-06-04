@@ -10,7 +10,7 @@ from time import sleep
 
 # DONE: ####   -----=== global variables ===-----   ####
 
-SHOW = "set"  # get, set, all
+SHOW = "get"  # get, set, all
 ICON = False  # True, False
 IF_ONLY_ONE = True  # if you choise only get or set icon will be this
 DEBUG = False  # show print no write current

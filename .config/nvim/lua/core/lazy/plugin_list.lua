@@ -38,7 +38,6 @@ return {
 	{ "raddari/last-color.nvim" }, -- Save Last colorscheme
 	{ "nvim-lualine/lualine.nvim" }, -- Bottom status bar for Neovim.
 	{ "folke/noice.nvim" }, -- Strong change ui Neovim
-	{ "3rd/image.nvim" }, -- nvim support Image
 	{ "lukas-reineke/indent-blankline.nvim" }, -- indent line back line
 	{ "echasnovski/mini.indentscope" }, -- indent line back line anims
 	{ "echasnovski/mini.comment" }, -- nvim comments
@@ -95,4 +94,8 @@ return {
 	{ "fei6409/log-highlight.nvim" }, -- highlighting log files
 	-- { "karb94/neoscroll.nvim" }, -- smooth scroll for neovim
 	{ "echasnovski/mini.animate" }, -- animation for nvim
+	{ "stevearc/dressing.nvim" }, -- enter ui for nvim
+	{ "lambdalisue/vim-suda" }, -- sudo
+	{ require("plugins.ui.nekifoch") }, -- neki for nvim only for (KITTY terminal)
+	{ "maarutan/macro-notify.nvim", opts = {} },
 }
