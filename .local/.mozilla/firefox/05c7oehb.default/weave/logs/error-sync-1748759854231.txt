@@ -1,0 +1,59 @@
+1748759639615	Sync.LogManager	DEBUG	Flushing file log
+1748759639646	Sync.LogManager	DEBUG	Log cleanup threshold time: 1747895639646
+1748759639650	Sync.LogManager	DEBUG	Done deleting files.
+1748759643035	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1748759643178	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748759643183	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748759643388	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1748759643388	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1748759643393	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1748759643394	Sync.Service	DEBUG	User-Agent: Firefox/139.0 (Linux x86_64) FxSync/1.141.0.20250522210034.desktop
+1748759643394	Sync.Service	INFO	Starting sync at 2025-06-01 12:34:03 in browser session dVKA5ttehGyA
+1748759643394	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1748759643397	Sync.Status	INFO	Resetting Status.
+1748759643397	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1748759643398	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1748759643398	Sync.SyncAuthManager	INFO	Getting sync key
+1748759643398	FirefoxAccounts	DEBUG	getOAuthToken enter
+1748759643398	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1748759643398	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1748759643399	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1748759643399	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1748759643399	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1748759643399	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1748759643647	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748759643798	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748759643805	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748759645402	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1748759646766	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748759646913	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748759646922	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748759648044	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1748759648045	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1748759648051	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1748759648055	Sync.Engine.Tabs	INFO	Posting 1 records of 11563 bytes with batch=true
+1748759648056	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1748759763628	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398862 - NS_ERROR_NET_TIMEOUT
+1748759763628	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1748759763629	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1748759763629	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1748759763629	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1748759763630	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1748759763630	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1748759763631	Sync.Collection	DEBUG	POST Length: 11563
+1748759763633	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1748759763634	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1748759763634	FirefoxAccounts	DEBUG	getOAuthToken enter
+1748759763634	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1748759763634	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1748759763635	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1748759854220	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264067527/info/collections failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1748759854220	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1748759854220	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1748759854221	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1748759854221	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1748759854222	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1748759854230	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available

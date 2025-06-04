@@ -1,0 +1,35 @@
+1748759854231	Sync.LogManager	DEBUG	Flushing file log
+1748759854273	Sync.LogManager	DEBUG	Log cleanup threshold time: 1747895854273
+1748759854277	Sync.LogManager	DEBUG	Done deleting files.
+1748759884438	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398862 - NS_ERROR_NET_TIMEOUT
+1748759884438	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_NET_TIMEOUT\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1748759944740	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264067527/storage/tabs?batch=true&commit=true failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1748759944740	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1748759944740	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1748760019260	Sync.Service	DEBUG	User-Agent: Firefox/139.0 (Linux x86_64) FxSync/1.141.0.20250522210034.desktop
+1748760019260	Sync.Service	INFO	Starting sync at 2025-06-01 12:40:19 in browser session dVKA5ttehGyA
+1748760019260	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1748760019263	Sync.Status	INFO	Resetting Status.
+1748760019263	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1748760019263	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1748760019263	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1748760019264	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.sys.mjs:60:13) JS Stack trace: sync@enginesync.sys.mjs:60:13
+onNotify@service.sys.mjs:1368:28
+WrappedNotify@util.sys.mjs:189:32
+WrappedLock@util.sys.mjs:145:27
+_lockedSync@service.sys.mjs:1382:6
+sync/<@service.sys.mjs:1356:18
+WrappedCatch@util.sys.mjs:112:27
+sync@service.sys.mjs:1357:7
+1748760019266	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1748760019266	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 2984124 ms.
+1748760019266	Sync.SyncScheduler	DEBUG	Next sync in 2984124 ms. (why=client-backoff-schedule)
+1748760019266	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1748760019272	Sync.Service	DEBUG	Exception calling anonymous function: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.sys.mjs:60:13) JS Stack trace: sync@enginesync.sys.mjs:60:13
+onNotify@service.sys.mjs:1368:28
+WrappedNotify@util.sys.mjs:189:32
+WrappedLock@util.sys.mjs:145:27
+_lockedSync@service.sys.mjs:1382:6
+sync/<@service.sys.mjs:1356:18
+WrappedCatch@util.sys.mjs:112:27
+sync@service.sys.mjs:1357:7

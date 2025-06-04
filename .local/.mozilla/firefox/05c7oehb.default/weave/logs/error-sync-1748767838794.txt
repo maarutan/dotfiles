@@ -1,0 +1,72 @@
+1748765558925	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1748765785349	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1748765785366	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1748765790358	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1748765790358	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1748765790363	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1748765790367	Sync.Engine.Tabs	INFO	Posting 1 records of 11651 bytes with batch=true
+1748765790369	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1748765790369	FirefoxAccounts	DEBUG	getOAuthToken enter
+1748765790369	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1748765790369	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1748765790370	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1748765790371	Sync.Collection	DEBUG	POST Length: 11651
+1748765790828	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 401
+1748765790828	FirefoxAccounts	INFO	Fetching the profile returned a 401 - revoking our token and retrying
+1748765790828	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/destroy
+1748765790828	Services.Common.RESTRequest	DEBUG	POST Length: 900
+1748765790829	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1748765790829	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","encryptedSendTabKeys","encryptedCloseTabKeys","oauthTokens","profileCache"]
+1748765790829	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","encryptedSendTabKeys","encryptedCloseTabKeys","oauthTokens","profileCache"]
+1748765790830	FirefoxAccounts	DEBUG	getOAuthToken enter
+1748765790831	FirefoxAccounts	TRACE	finished write of json user data - took: 2
+1748765790831	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1748765790831	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1748765790834	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1748765790835	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1748765790835	Services.Common.RESTRequest	DEBUG	POST Length: 81
+1748765791016	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264067527/storage/tabs?batch=true&commit=true
+1748765791021	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1748765791212	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/destroy 200
+1748765791212	Hawk	DEBUG	(Response) /oauth/destroy: code: 200 - Status text: 
+1748765791212	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -212
+1748765791545	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/token 200
+1748765791545	Hawk	DEBUG	(Response) /oauth/token: code: 200 - Status text: 
+1748765791545	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -545
+1748765791545	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1748765791545	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","encryptedSendTabKeys","encryptedCloseTabKeys","oauthTokens","profileCache"]
+1748765791545	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","encryptedSendTabKeys","encryptedCloseTabKeys","oauthTokens","profileCache"]
+1748765791546	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1748765791547	FirefoxAccounts	TRACE	finished write of json user data - took: 2
+1748765791548	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1748765791548	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1748765791553	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1748765791956	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1748767836757	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1748767836757	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1748767836758	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1748767836761	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1748767836766	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1748767836766	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1748767836766	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1748767836766	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1748767838768	Sync.Service	DEBUG	User-Agent: Firefox/139.0 (Linux x86_64) FxSync/1.141.0.20250522210034.desktop
+1748767838769	FirefoxAccounts	INFO	Polling device commands.
+1748767838769	Sync.Service	INFO	Starting sync at 2025-06-01 14:50:38 in browser session dVKA5ttehGyA
+1748767838769	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1748767838775	Sync.Status	INFO	Resetting Status.
+1748767838775	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1748767838779	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1748767838779	FirefoxAccounts	DEBUG	getOAuthToken enter
+1748767838781	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1748767838781	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1748767838781	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1748767838787	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1748767838787	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1748767838789	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/device/commands?index=0
+1748767838790	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264067527/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1748767838790	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1748767838790	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1748767838790	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1748767838791	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1748767838794	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
