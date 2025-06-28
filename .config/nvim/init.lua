@@ -82,6 +82,6 @@ require("plugins.misc.scroll_resize")
 require("plugins.misc.buffer_manager")
 -- require("plugins.misc.trash_cli")
 require("plugins.misc.select_all")
--- require("plugins.misc.gitcommit")
+require("plugins.misc.gitcommit")
 
 -- require("plugins.misc.niki_custom")
