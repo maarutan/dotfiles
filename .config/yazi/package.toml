@@ -1,0 +1,102 @@
+[[plugin.deps]]
+use = "imsi32/yatline"
+rev = "88bd1c5"
+hash = "981acbe9b758b1af3a8154c932bb936d"
+
+[[plugin.deps]]
+use = "hankertrix/augment-command"
+rev = "a03a237"
+hash = "56dfc522998328d0c417226e88da862c"
+
+[[plugin.deps]]
+use = "boydaihungst/simple-tag"
+rev = "2bc47d1"
+hash = "7faa45bbce138653868377c985223dac"
+
+[[plugin.deps]]
+use = "pirafrank/what-size"
+rev = "0a4904c"
+hash = "fca231a128488a554823374f8f6d5241"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "aeca767"
+hash = "d5d4f3527592da5fbe77fd6f51815f80"
+
+[[plugin.deps]]
+use = "boydaihungst/restore"
+rev = "b7c3376"
+hash = "d9dbd61d8b814e74a5420dba1e4788c4"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "aeca767"
+hash = "a7ab702e1ef0c097defbc976ed34c186"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "aeca767"
+hash = "bf6f074cd41ee33c3360341d168f9733"
+
+[[plugin.deps]]
+use = "ahkohd/eza-preview"
+rev = "7a93433"
+hash = "22e1bd3dd03894746a3540b5f3729d0c"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:jump-to-char"
+rev = "aeca767"
+hash = "30fc0b37f03a597b92d387268319450f"
+
+[[plugin.deps]]
+use = "dedukun/relative-motions"
+rev = "2e3b617"
+hash = "b67ee12053113983273e9118a7d1272b"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "aeca767"
+hash = "3996fc74044bc44144b323686f887e1"
+
+[[plugin.deps]]
+use = "boydaihungst/mediainfo"
+rev = "a7d1aa6"
+hash = "844133c7247cda086819d63a9ca5e457"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "aeca767"
+hash = "277ba273e5d3d647feb5808d0fe4e4e0"
+
+[[plugin.deps]]
+use = "Ape/open-with-cmd"
+rev = "433cf30"
+hash = "86e0312b01bc5762813c6c1d0517f073"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "aeca767"
+hash = "d0ad0c1946b46a30c8489735fe8de41c"
+
+[[plugin.deps]]
+use = "orhnk/system-clipboard"
+rev = "efb8f03"
+hash = "9b8f2573da54334b04747e51556040cc"
+
+[[plugin.deps]]
+use = "grappas/wl-clipboard"
+rev = "c4edc4f"
+hash = "b25c2acb08d9ca5ff5cf71ea764fed8d"
+
+[[plugin.deps]]
+use = "xmozoid/wl-clipboard"
+rev = "e3eb54b"
+hash = "51ff959c3c26cb3889589a0f8d394f14"
+
+[[plugin.deps]]
+use = "ndtoan96/ouch"
+rev = "1ee69a5"
+hash = "63679f3daf8551ff8755be38b5ced0f"
+
+[flavor]
+deps = []

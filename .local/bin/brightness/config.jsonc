@@ -1,0 +1,38 @@
+// ┌┐ ┬─┐┬┌─┐┬ ┬┌┬┐┌┐┌┌─┐┌─┐┌─┐  ┌─┐┌─┐┌┐┌┌┬┐┬─┐┌─┐┬
+// ├┴┐├┬┘││ ┬├─┤ │ │││├┤ └─┐└─┐  │  │ ││││ │ ├┬┘│ ││
+// └─┘┴└─┴└─┘┴ ┴ ┴ ┘└┘└─┘└─┘└─┘  └─┘└─┘┘└┘ ┴ ┴└─└─┘┴─┘
+//--------------------------------------------------------------------
+// Copyright (c) 2025 maarutan \ Marat Arzymatov. All Rights Reserved.
+// https://github.com/maarutan/brightness
+//
+{
+  // ┬─┐┌─┐┌┐┌┌┬┐┌─┐┬─┐
+  // ├┬┘├┤ │││ ││├┤ ├┬┘
+  // ┴└─└─┘┘└┘─┴┘└─┘┴└─
+
+  // Theme settings
+  "theme": "sunshine",  // Add custom themes (default options: "default" | "sunshine")
+  
+  // Brightness display settings
+  "redner_brightness": "  *･ﾟ✧ {brightness}% ✧･ﾟ*",  // Customize brightnesbrightnesss output (use {volume} placeholder)
+  
+  // ┌┐┌┌─┐┌┬┐┬┌─┐┬ ┬  ┌─┐┌─┐┌┐┌┌┬┐
+  // ││││ │ │ │├┤ └┬┘  └─┐├┤ │││ ││
+  // ┘└┘└─┘ ┴ ┴└   ┴   └─┘└─┘┘└┘─┴┘
+  
+  // Notification settings
+  "notify_id": 9999,          // Unique notification ID (prevents stacking)
+  "notify_timeout": 1000,     // Notification display duration (milliseconds)
+  "notify_icon": true,        // Show theme icons in notifications
+  "notify_progress_bar": true, // Display volume progress bar
+  
+  // ┌─┐┌─┐┌┐┌┌┬┐┬─┐┌─┐┬
+  // │  │ ││││ │ ├┬┘│ ││
+  // └─┘└─┘┘└┘ ┴ ┴└─└─┘┴─┘
+
+  // Brightness control parameters
+  "turn_add": 5,              // Brightness increase step (--up command)
+  "turn_sub": 5,              // Brightness decrease step (--down command)
+  "turn_smooth": true,        // Enable smooth volume transitions
+  "turn_delay": 0.001          // Smooth transition speed (seconds per step)
+}

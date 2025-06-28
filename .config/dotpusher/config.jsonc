@@ -1,0 +1,72 @@
+//
+//    ┌┬┐┌─┐┌┬┐┌─┐┬ ┬┌─┐┬ ┬┌─┐┬─┐    ==\
+//     │││ │ │ ├─┘│ │└─┐├─┤├┤ ├┬┘  =======>
+//    ─┴┘└─┘ ┴ ┴  └─┘└─┘┴ ┴└─┘┴└─    ==/
+//
+// copyright (c) 2025 maarutan \ marat arzymatov. all rights reserved.
+// ----------------------------------------------------------------------->
+//
+{
+  "url": "git@github.com:maarutan/dotfiles",            // Remote repository URL for your dotfiles
+  "branch": "main",                                     // Branch to use for push/pull operations
+
+  "dirname": "dotfiles",                                // Target directory name inside result_location
+  "result_location": "~/.config/dotpusher/dist",        // Final output path where all resources will be gathered
+
+  "assets": "{result_location}/assets/{dirname}",       // Optional: path to assets or additional files (e.g., README.md)
+
+  "noconfirm": true,                                    // Run without asking for confirmations
+  "default_commit_message": "dotpusher",                // Default git commit message
+  "stop_when_warned": "0.5",                            // Delay (in seconds) when a warning occurs; set to 0 to disable
+
+  "blacklist": [          // What will be ignored when items are copied
+    ".git",               // Exclude .git directories from all operations
+    "__pycache__"         // Exclude Python bytecode caches
+  ],
+
+  "resources": {                   // Directories to copy
+    "~/": [
+      "Pictures",                  // Copies the ~/Pictures directory into the result root directory
+      ".themes",                   // Copies the ~/.themes directory into the result root directory
+      ".zshrc",                    // Uncomment to copy ~/.zshrc into the result root directory
+      ".icons",
+      ".local/bin"
+    ],
+
+    "~/.config": [
+      "nvim",                      // Copies the ~/.config/nvim directory
+      "yazi",
+      "waybar",
+      "zsh",
+      "rofi",
+      "qt5ct",
+      "qt6ct",
+      "paru",
+      "nwg-look",
+      "nwg-dock-hyprland",
+      "neofetch",
+      "kitty",
+      "hypr",
+      "gtk-4.0",
+      "gtk-3.0",
+      "gtk-2.0",
+      "flameshot",
+      "dunst",
+      "dotpusher/config.jsonc",
+      "declarative_package/config.jsonc",
+      "cava",
+      "btop",
+      "user-dirs.locale",
+      "user-dirs.dirs",
+      "pavucontrol.ini",
+      "yay",
+      "mimeapps.list"
+    ],
+
+    "/etc": [
+      "ly/config.ini",             // Interpreted as a relative path: result/etc/ly/config.ini
+      "locale.conf",
+      "pacman.conf"
+    ]
+  }
+}
