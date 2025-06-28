@@ -98,4 +98,5 @@ return {
 	{ "lambdalisue/vim-suda" }, -- sudo
 	{ require("plugins.ui.nekifoch") }, -- neki for nvim only for (KITTY terminal)
 	{ "maarutan/macro-notify.nvim", opts = {} },
+	{ "declancm/cinnamon.nvim", opts = {} },
 }

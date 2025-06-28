@@ -1,6 +1,0 @@
-{"timestamp":7303665,"category":"bounce.tracking.protection","name":"purge_action","extra":{"require_stateful_bounces":"true","success":"true","bounce_time":"1749044740","is_dry_run":"true","site_host":"envato.com","glean_timestamp":"1749051368992"}}
-{"timestamp":1510635,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2025-06-05T02:42+06:00","glean_timestamp":"1749069743254"},"execution_counter":1}
-{"timestamp":1537924,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2025-06-05T02:42+06:00","glean_timestamp":"1749069770543"},"execution_counter":2}
-{"timestamp":3266280,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2025-06-05T03:11+06:00","glean_timestamp":"1749071498898"},"execution_counter":3}
-{"timestamp":158395,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2025-06-05T04:17+06:00","glean_timestamp":"1749075425289"},"execution_counter":4}
-{"timestamp":32766,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2025-06-05T04:46+06:00","glean_timestamp":"1749077192206"},"execution_counter":5}

@@ -13,6 +13,7 @@ local filenames = {
 	"emmet-ls",
 	"nix",
 	"rust",
+	"django",
 }
 
 for _, i in ipairs(filenames) do

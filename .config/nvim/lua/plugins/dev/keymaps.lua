@@ -32,6 +32,7 @@ end
 -- Setup language servers
 local servers = {
 	"ts_ls",
+	"django_template_language_server",
 	"pyright",
 	"bashls",
 	"cssls",

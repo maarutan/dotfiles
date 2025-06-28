@@ -36,13 +36,12 @@ require("mason-tool-installer").setup({
 		"sqlls", -- SQL
 		"taplo", -- TOML
 		"hyprls", -- Hyprland
-		"nil", -- Nix
+		-- "nil", -- Nix
 		"rust-analyzer", -- Rust
 
 		--- Linters ---
 		"beautysh", -- Shell scripts
 		"cpplint", -- C/C++
-		"djlint", -- Django templates
 		"eslint_d", -- JavaScript/TypeScript
 		"htmlhint", -- HTML
 		"markdownlint", -- Markdown
@@ -54,7 +53,7 @@ require("mason-tool-installer").setup({
 		"yamllint", -- YAML
 
 		--- Formatters ---
-		"alejandra", -- Nix
+		-- "alejandra", -- Nix
 		"black", -- Python
 		"prettier", -- General-purpose (JS, CSS, HTML)
 		"prettierd", -- Lightweight Prettier

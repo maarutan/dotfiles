@@ -14,6 +14,10 @@ M.config = {
 		jump = 1,
 		move = 5,
 	},
+	go_to = {
+		repeat_interval = 9,
+		jump = 3,
+	},
 }
 
 ---@class Scroll
@@ -32,7 +36,13 @@ end
 function Scroll:is_cursor_bottom()
 	local current_line = vim.api.nvim_win_get_cursor(0)[1]
 	local total_lines = vim.api.nvim_buf_line_count(0)
-	return current_line == total_lines
+	return current_line >= total_lines
+end
+
+---@return boolean
+function Scroll:is_cursor_top()
+	local cursor_line = vim.api.nvim_win_get_cursor(0)[1]
+	return cursor_line == 1
 end
 
 ---@return Scroll
@@ -59,6 +69,51 @@ function Scroll:run(key)
 	return self
 end
 
+---@return Scroll
+function Scroll:GoTo(status, key)
+	local timer = vim.loop.new_timer()
+	local is_self_trigger = false
+
+	local function stop_all()
+		if timer then
+			timer:stop()
+			timer:close()
+			timer = nil
+		end
+		if self._key_unmap then
+			vim.on_key(nil, self._key_unmap)
+			self._key_unmap = nil
+		end
+	end
+
+	-- Слушатель ввода: любое нажатие пользователя — стоп
+	self._key_unmap = vim.on_key(function()
+		if not is_self_trigger then
+			stop_all()
+		end
+	end, vim.api.nvim_create_namespace("ScrollStopper"))
+
+	timer:start(
+		0,
+		self.repeat_interval,
+		vim.schedule_wrap(function()
+			-- Отметка, что это наше нажатие
+			is_self_trigger = true
+			vim.cmd("normal! " .. self.jump .. key)
+			is_self_trigger = false
+
+			-- Проверка на достижение верха или низа
+			if status == "up" and self:is_cursor_top() then
+				stop_all()
+			elseif status == "down" and self:is_cursor_bottom() then
+				stop_all()
+			end
+		end)
+	)
+
+	return self
+end
+
 function M.up()
 	local scroll = Scroll.new(M.config.scroll.move, M.config.scroll.repeat_interval, M.config.scroll.jump)
 	scroll:run("k")
@@ -67,6 +122,16 @@ end
 function M.down()
 	local scroll = Scroll.new(M.config.scroll.move, M.config.scroll.repeat_interval, M.config.scroll.jump)
 	scroll:run("j")
+end
+
+function M.go_to_up()
+	local scroll = Scroll.new(M.config.scroll.move, M.config.go_to.repeat_interval, M.config.go_to.jump)
+	scroll:GoTo("up", "k")
+end
+
+function M.go_to_bottom()
+	local scroll = Scroll.new(M.config.scroll.move, M.config.go_to.repeat_interval, M.config.go_to.jump)
+	scroll:GoTo("down", "j")
 end
 
 local Resize = {}
@@ -123,8 +188,10 @@ function M.setup(user_config)
 	}
 
 	vim.api.nvim_create_user_command("ScrollUp", M.up, {})
-
 	vim.api.nvim_create_user_command("ScrollDown", M.down, {})
+
+	vim.api.nvim_create_user_command("GoToUp", M.go_to_up, {})
+	vim.api.nvim_create_user_command("GoToBottom", M.go_to_bottom, {})
 end
 
 return M.setup({})

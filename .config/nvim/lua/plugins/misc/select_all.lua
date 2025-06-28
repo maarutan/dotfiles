@@ -1,3 +1,4 @@
+---@diagnostic disable: deprecated
 _G.select_all_executed = false
 
 local function select_all()
