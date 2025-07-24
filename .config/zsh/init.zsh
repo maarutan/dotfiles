@@ -1,28 +1,39 @@
-#!/usr/bin/env zsh
-# ┌─┐┌─┐┬ ┬  ┬┌┐┌┬┌┬┐
-# ┌─┘└─┐├─┤  │││││ │
-# └─┘└─┘┴ ┴  ┴┘└┘┴ ┴
-#--------------------------------------------
-# (c) maarutan   https://github.com/maarutan
+# -- variables --
 
-KARNEL_DIR="node"
+_dir_="$(dirname "$0")"
+plugin_managers=""$_dir_"/_plugin_managers_"
 
-# Core
-source "$ZSH_CONFIG/$KARNEL_DIR/core/beauty.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/core/environments.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/core/aliases.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/core/themeinit.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/core/funcinit.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/core/keybindings.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/core/abbreviation.zsh"
+RED=$'%F{red}'
+GREEN=$'%F{green}'
+YELLOW=$'%F{yellow}'
+CYAN=$'%F{cyan}'
+RESET=$'%f'
 
-# Plugin Manager
-source "$ZSH_CONFIG/$KARNEL_DIR/core/__plugin_manager__/manager.zsh"
+# -- load keybindings
+source "$_dir_"/keybindings.zsh
 
-# Plugins
-source "$ZSH_CONFIG/$KARNEL_DIR/plugins/zsh-vi-mode.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/plugins/fzf-tab.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/plugins/fzf-history.zsh" 
-source "$ZSH_CONFIG/$KARNEL_DIR/plugins/sudo.zsh" 
-source "$ZSH_CONFIG/$KARNEL_DIR/plugins/syntax-highlighting.zsh"
-source "$ZSH_CONFIG/$KARNEL_DIR/plugins/zsh_autosuggest.zsh"
+# -- load beauty
+source "$_dir_"/beauty.zsh
+
+# -- load aliases
+source "$_dir_"/aliases.zsh
+
+# -- load local functions
+source "$_dir_"/functions/func_init.zsh
+
+# -- load environments
+source "$_dir_"/environments.zsh
+
+
+# -- load plugin manager --
+
+if [[ -d "$plugin_managers" ]]; then
+    source "$plugin_managers/plugin_manager_handler.zsh"
+else
+    print -P "%F{red}❌ No such directory: $plugin_managers%f"
+    print -P "%F{yellow}⚠️ Create a directory in the zsh configuration directory:
+~~>     '$plugin_managers' ~~
+    and configure your plugin manager inside it so that the plugins work. %f"
+    exit 1
+fi
+

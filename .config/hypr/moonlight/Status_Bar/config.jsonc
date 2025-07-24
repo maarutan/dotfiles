@@ -1,0 +1,69 @@
+{
+  "layer":    "top",
+  "position": "top", 
+  // "margin": "10px 50px 10px 50px",
+  // "margin": "0px 0px 0px 0px",
+  "margin": "0px 40px 0px 40px",
+  "corners": "10px",
+  
+  
+  // --- [ Choose the order of the modules ] ---
+  
+  "modules-start": [
+      "logo",
+      "workspaces"
+      // "window-title"
+  ],
+  
+  "modules-center": [
+      "clock"
+  ],
+  
+  "modules-end": [
+      "tray",
+      "memory",
+      "language"
+  ],
+
+
+  // --- [ Configure the modules ] ---
+
+  "logo": {
+    "type": "image", // "image" or "text"
+    "content": "i use   btw",
+    "image-path": "~/Pictures/Profile/user.jpg",
+    "image_size": 24
+  },
+
+  "language": {
+    "number_letters":2,
+    "register":"lower"
+  },
+
+  "clock": 12, // 24 or 12  or ( 242 - 2 its s.  2 == (s - second))
+
+  "memory": {
+    "icon": " ",
+    "interval": 5,
+    "format": "used" // used/total
+  },
+
+  "tray": {
+    "icon-size": 24,
+    "refresh-interval":1, 
+    "spacing": 8
+
+  },
+
+  "workspaces": {
+    "maximum-values": 5,
+    "magic-icons": "🪄✨",
+    "magic-view": true,
+    "enable-buttons_factory": true,
+    "numbering-workpieces":[
+        "一", "二", "三", "四", "五",
+        "六", "七", "八", "九", "〇"
+    ] 
+  }
+}
+
