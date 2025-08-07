@@ -79,6 +79,7 @@
 ---@field skip_single_subdirectory_on_leave boolean Skip single subdir on leave
 ---@field smooth_scrolling boolean Whether to smoothly scroll or not
 ---@field scroll_delay number The scroll delay in seconds for smooth scrolling
+---@field create_item_delay number Delay in seconds before revealing
 ---@field wraparound_file_navigation boolean Have wraparound navigation or not
 
 -- The full configuration for the plugin
@@ -130,6 +131,7 @@ local Commands = {
 	Emit = "emit",
 	Editor = "editor",
 	Pager = "pager",
+	FirstFile = "first_file",
 }
 
 -- The enum for which group of items to operate on
@@ -195,6 +197,7 @@ local DEFAULT_CONFIG = {
 	skip_single_subdirectory_on_leave = true,
 	smooth_scrolling = false,
 	scroll_delay = 0.02,
+	create_item_delay = 0.25,
 	wraparound_file_navigation = true,
 }
 
@@ -1026,6 +1029,10 @@ end
 ---@return boolean sudo_edit_supported Whether sudo edit is supported
 local function get_sudo_edit_supported()
 	--
+
+	-- If the platform is Windows, return false immediately
+	-- as Windows does not have sudo
+	if ya.target_family() == "windows" then return false end
 
 	-- Call the "sudo --help" command and get the handle
 	--
@@ -3363,7 +3370,7 @@ local function execute_create(item_url, is_directory, args, config)
 	end
 
 	-- Wait for a tiny bit for the file to be created
-	ya.sleep(10e-2)
+	ya.sleep(config.create_item_delay)
 
 	-- Reveal the created item
 	ya.emit("reveal", { tostring(item_url) })
@@ -4213,7 +4220,7 @@ local function handle_parent_arrow(args, config)
 
 	-- If smooth scrolling is not wanted,
 	-- call the function to execute the parent arrow command
-	if not config.smooth_scrolling then execute_parent_arrow(args) end
+	if not config.smooth_scrolling then return execute_parent_arrow(args) end
 
 	-- Otherwise, smooth scrolling is wanted,
 	-- so get the number of steps from the arguments given
@@ -4225,6 +4232,56 @@ local function handle_parent_arrow(args, config)
 		config.scroll_delay,
 		function(step) execute_parent_arrow(merge_tables({ step }, args)) end
 	)
+end
+
+-- Function to execute the first file command
+---@type fun(): nil
+local execute_first_file = ya.sync(function()
+	--
+
+	-- Get the current working directory
+	local current = cx.active.current
+
+	-- Get the files in the current working directory
+	local files = current.files
+
+	-- Initialise the index of the first file
+	local first_file_index = nil
+
+	-- Iterate over the files
+	for index, file in ipairs(files) do
+		--
+
+		-- If the file isn't a directory,
+		if not file.cha.is_dir then
+			--
+
+			-- Set the first file index
+			first_file_index = index
+
+			-- Break out of the loop
+			break
+		end
+	end
+
+	-- Get the amount to move the cursor by.
+	--
+	-- The cursor index needs to be increased by 1
+	-- because the cursor index is 0-indexed
+	-- while Lua tables are 1-indexed.
+	local move_by = first_file_index - (current.cursor + 1)
+
+	-- Emit the augmented arrow command
+	emit_augmented_command("arrow", { move_by })
+end)
+
+-- Function to handle the first file command
+---@type CommandFunction
+local function handle_first_file()
+	--
+
+	-- Call the function to execute the first file command
+	execute_first_file()
 end
 
 -- Function to check if an archive supports header encryption
@@ -4450,7 +4507,7 @@ local function handle_archive(args, config)
 		--
 
 		-- Wait for a tiny bit for the archive to be created
-		ya.sleep(10e-2)
+		ya.sleep(config.create_item_delay)
 
 		-- Reveal the archive
 		ya.emit("reveal", { archive_path })
@@ -4660,6 +4717,7 @@ local function run_command_func(command, args, config)
 		[Commands.Quit] = handle_quit,
 		[Commands.Arrow] = handle_arrow,
 		[Commands.ParentArrow] = handle_parent_arrow,
+		[Commands.FirstFile] = handle_first_file,
 		[Commands.Archive] = handle_archive,
 		[Commands.Emit] = handle_emit,
 		[Commands.Editor] = handle_editor,

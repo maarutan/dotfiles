@@ -1,113 +1,335 @@
-ye
-ee
-clea
-clsd
-re
-rn
-n
-sudo pacman -Sy signal-desktop
-sudo pacman -Sy clifm
-yay -S clifm
-clifm
-cd Pictures/
-yazi
-\:qa
-uv lock
-uv init
-uv build
-uv sync
-checkinternet
-pg
-mkd ~/Pictures/Screenshots
-copypath
-pkill -u maaru
-reboot
-python3 -u /home/maaru/Documents/desktops/moonlight/modules/status_bar/modules/workspace.py
-ar
-lt .
-git commit -m "edits styles"
-ls
-git add main.py
-git commit -m "edit main.py"
-git add modules/
-git branch
-git branch list
-git branch -list
-git branch --list
-git branch -h
-git branch -D list
-git branch -l
-git branch -m master main
-git push --set-upstream origin main
-signal-desktop
-XDG_CURRENT_DESKTOP=gnome signal-desktop -startintray &
-btop
-git clone --depth 1 git@github.com:Shentxt/Hyprhype.git
-swww img example-5.jpg
-./pacman
-./colorscript
-./colorscript -help
-./colorscript -r
-setproctitle
-uv add setproctitle
-python3 -u /home/maaru/Documents/desktops/Hyprhype/.config/Modus/main.py
-uv remove setproctitle
-—Å–¥—É´
-git add .
-git commit -m "edits modules | StatusBar"
-git push
-—É£e
-sh colorpicker.sh
-sh -rgb
-sh gamemode.sh
-sh wmreload.sh
-python3 -u /home/maaru/Documents/desktops/Hyprhype/.config/Modus/modules/launcher/components/cliphist.py
-python3 -u /home/maaru/Documents/desktops/Hyprhype/.config/Modus/modules/launcher/components/wallpapers.py
-nvim
-python3 -u /home/maaru/Documents/desktops/moonlight/main.pya
-git clone --depth 1 git@github.com:SlumberDemon/dotfiles.git
-swww img city.png
-source ./.venv/bin/activate
-ka
-sh /home/maaru/Documents/desktops/Ax-Shell/scripts/screenrecord.sh
-python3 -u /home/maaru/Documents/desktops/moonlight/main.py
-5python3 -u /home/maaru/Documents/desktops/moonlight/modules/status_bar/modules/recording_indicator.py
-python3 -u /home/maaru/Documents/desktops/moonlight/modules/status_bar/modules/recording_indicator.py
-nvim recorded.py
-python3 -u /home/maaru/recorded.py
-grim slurp
-slurp
-command
-command git
-command -v git
-sudo pacman -Sy swappy
-python3 -u /home/maaru/.local/bin/wayland/screenshot.py
-nvim screenshot.py
-echo $(env)
-echo $(env) | grep "Pict"
-echo $(env) | grep "Picttures"
-echo $(env) | grep "XDG"
-echo env | grep "XDG"
-echo $env | grep "XDG"
-clear
-echo $env
+scrvenv
+rg 'PlayerHierarchyPopup\s*\('\
 
-echo $($XDG_PICTURES_DIR)
-echo $XDG_PICTURES_DIR
+imgcat PlayerHierarchyPopup
+imgcat
+imgcat https://i.scdn.co/image/ab67616d0000b273806c160566580d6335d1f16c
+python3 -u /home/maaru/Documents/desktop/moonlight/modules/status_bar/modules/title.py
+imgcat https://i.scdn.co/image/ab67616d0000b27345de6f708fe45e7db8d091db
+ex
+pkill -f telegram
+s
+sudo pacman -S bluetui
+sudo pacman -S bluez -bluez-utils
+sudo pacman -S bluez bluez-utils
+sudo systemctl enable --now bluetooth.service
+sudo pacman -S blueman
+elf.player._get_playing_players().get("players", {})
+cd ~/.config/hypr/
+fpython3 -u /home/maaru/Documents/desktop/moonlight/main.py
+\:python3 -u /home/maaru/Documents/desktop/moonlight/modules/status_bar/modules/title.py
+pkill -f cava
+rm -rf /tmp/
+git commit -m "dynamic titile apply"
+git commit -m "new position for System Tray modules"
+git add ./system_tray
+git commit -m "mkd for modules"
+git commit -m "new positon for windows_title modules"
+chmod +x ./*
+git commit -m "new order for modules"
+w
+figlet -f Calvin\ S status bar
+python3 -u /home/maaru/Documents/desktop/moonlight/main.py'
+curl -o cover.jpg https://i.scdn.co/image/ab67616d0000b273e253975918bac3b81fb994b9\
+
+uv add requests
+python3 -u /home/maaru/Documents/desktop/moonlight/services/get.py
+a
+python3 -u /home/maaru/Documents/desktop/moonlight/utils/get_preview.py
+python3 -u /home/maaru/Documents/desktop/moonlight/modules/status_bar/modules/title_window/media_player_hierarchy_popup.py
+pythonthon3 -u /home/maaru/Documents/desktop/moonlight/services/player.py
+ffmpeg -i input.mkv -c:v libx264 -preset slow -crf 28 -c:a aac -b:a 128k output.mp4\
+
+git add modules/status_bar/
+git commit -m "added new module | player for title"
+git add modules/
+git commit -m "i don't know what i modify"
+git commit -m "other add"
+sudo pacman -Syu
+setsid ./start.sh
+while true; do\
+nmcli d w connect maaru\
+done
 —É£
+look
+lockctl
+localectl suspend
+current_list_dir
+current_list_dir .
+suspend
+sudo suspend
+pacmanlayerctl position 15+\
+
+playerctl position 15+ \
+
+playerctl position 15- \
+
+playerctl position \
+
+git commit -m ""
+git commit
+nm-online
+ping google.com
+nmtui-edit
+nm
+nm -h
+lt
+fzf
+eza --color --tree --level=3 --icons
+[200~ip link]
+ip link\
+
+lsusb\
+
+sudo pacman -Sy lsusb
+sudo pacman -S usb_modeswitch\
+
+_lsusb
+sudo modprobe rndis_host\
+sudo modprobe cdc_ether\
+sudo modprobe usbnet\
+
+lsmod | grep rndis\
+
+dmesg | tail -n 30\
+
+lsusbE
+sudo pacman -Sy usbutils
+lsusb
+nmcli device \
+
+nmcli d monitor
+while true; do\
+nmcli d w list
+while true; do\
+nmcli d w list\
+done
+while true; do\
+nmcli d w list\
+clear\
+done
+nmtui
+python -u /home/maaru/Documents/desktop/moonlight/services/player.py
+playerctl position --player=firefox --format '{{ duration(position) }}' --follow\
+
+playerctl position --player=firefox --format '{{ duration(position) }}' \
+
+playerctl position --player=firefox '{{ duration(position) }}' --follow\
+
+playerctl metadata --format '{{duration(position)}}|{{duration(mpris:length)}}'\
+
+yay -S esound
+yay -Rns esound
+yay -S appimage-installer-bin
+appimage
+applygnupgdefaults
+esound
+yay -Rns appimage-installer-bin
+appimage-installer
+yay -S appimagelauncher-bin
+yay -S appimagelauncher
+AppImageLauncherSettings
+AppImageLauncher
+AppImageLauncher eSound-Music-Setup-2.8.2.AppImage
+sudo pacman -Sy bravve
+sudo pacman -Sy brave
+yay -S brave
+imgcat elementor-placeholder-image.webp
+chafa elementor-placeholder-image.webp
+magick elementor-placeholder-image.webp placeholder.png
+ls /home/maaru/Documents/desktop/moonlight/assets/player/placeholder.jpg\
+
+ls /home/maaru/Documents/desktop/moonlight/assets/player/placeholder.png\
+
+python3 -u /home/maaru/Documents/desktop/moonlight/config/data.py
+python3 -u /home/maaru/Documents/desktop/moonlight/services/player.pypython3 -u /home/maaru/Documents/desktop/moonlight/services/player.py
+hyprctl monitors
+hyprctl workspace
+hyprctl workspace activewindow
+sleep 1 hyprctl workspace activewindow
+sleep 1 \
+hyprctl workspace activeworkspace
+ffmpeg -i 2025-08-03\ 15-27-36.mp4 -c:v libx264 -preset slow -crf 28 -c:a aac -b:a 128k output.mp4\
+
+python
+git status
+ll
+cd core
+git add prep_cfg/
+git commit -m "prepared config handler"
+git add prep_modules/
+git commit -m "prepared module handler"
+git add module_handler.py
+git add _config_handler.py
+git commit -m "modify, new func"
+git add title_window/
+git commit -m "successfully title-player"
+git commit -m "other modules"
+git add
+git add bar.py
+git commit -m "modify bar"
+git commit -m "and other"
+git commit -m "new cfg for title-player"
+fastfetch
+nmcli d w connectmaaru
+sudo pacman -Sy brightnessctl
+ear
+cava
+while true; do\
+clear\
+nmcli d w list\
+done
+while true; do\
+clear\
+nmcli radio wifi off\
+nmcli radio wifi on \
+nmcli d w connect maaru\
+nmcli d w list\
+nmcli d \
+done
+while true; do\
+clear\
+nmcli radio wifi off\
+nmcli radio wifi on \
+sleep 0.5\
+nmcli d w connect maaru\
+nmcli d w list\
+nmcli d \
+done
+while true; do\
+clear\
+nmcli radio wifi off\
+nmcli radio wifi on \
+sleep 1\
+nmcli d w connect maaru\
+nmcli d w list\
+nmcli d \
+done
+checkinternet
+rg animation
+sudo rm -rf /tmp
+uv add py-spy
+py-spy main.py
+py-spy README.md
+py-spy
+py-spy top main.py
+py-spy top Dmain.py
+py-spy top
+eixt
+while true; do\
+clear\
+nmcli d w connect maaru\
+nmcli d w list\
+nmcli d \
+done
+python3 -u /home/maaru/Documents/desktop/moonlight/test.py
+nvim
+playerctl previous
+playerctl next
+chromium
+pkill -f chro
+cd moonlight/
+pytest\
+
+uv add pytest
+cd tests/
+lt .
+pwd\
+ls -l test_bar.py\
+
+ls
+pytest test_bar.py
+python3 -u /home/maaru/Documents/desktop/moonlight/modules/status_bar/tests/test_bar.py
+python3 -u /home/maaru/Documents/desktop/moonlight/modules/status_bar/bar.py
+sh /home/maaru/Documents/desktop/Ax-Shell/scripts/gamemode.sh
+sh /home/maaru/Documents/desktop/Ax-Shell/scripts/ocr.sh
+sh /home/maaru/Documents/desktop/Ax-Shell/scripts/screenshot.sh
+python3 -u /home/maaru/Documents/desktop/Ax-Shell/scripts/inhibit.py
+python3 -u /home/maaru/.local/bin/wayland/screenshot/screenshot.py
+nmcli d w list
+while true; do\
+clear\
+nmcli d w connect maaru\
+nmcli d w list\
+done
+btop
+t
+python3 -u /home/maaru/Documents/desktop/moonlight/services/player.py
+clear
+python3 -u /home/maaru/Documents/desktop/moonlight/services/player_.py\
+n3 -u /home/maaru/Documents/desktop/moonlight/services/player_.py
+pythonthon3 -u /home/maaru/Documents/desktop/moonlight/services/player_.py
+python -u /home/maaru/Documents/desktop/moonlight/services/player_.py
+python3 -u /home/maaru/Documents/desktop/moonlight/services/player_.py
+python3 -u /home/maaru/Documents/desktop/Ax-Shell/services/mpris.py
+reboot
+bluetui
+ka
+poweroff
+nmcli radio wifi off
+nmcli radio wifi on
+nmcli d w connect maaru
+
+srcvenv
+pkill -f python
+python3 -u /home/maaru/Documents/desktop/moonlight/main.py
+git remote add origin git@github.com:maarutan/moonvim
+git push --set-upstream origin main\
+
+ya pack -a grappas/wl-clipboard
+ya pkg -a grappas/wl-clipboard
+ya pkg grappas/wl-clipboard
+ya pkg help
+ya pkg install grappas/wl-clipboard
+ya pkg add grappas/wl-clipboard
+ya pkg -h
+ya pkg add mctrxw/wl-clipboard.yazi
+ya pkg upgrade
+..
+git init -b "main"
+rm -rf .git
+git clone --depth 1 git@github.com:maarutan/yamoon.git
+sudo pacman -S resvg\
+
+sudo pacman -S pdftoppm\
+
+which yazi
+sudo pacman -S poppler\
+
+sudo pacman -S pdftoppm
+sudo pacman -S jq
+sudo pacman -S fd\
+
+/sbin/yazi --debug
+sudo pacman -Sy 7zz
+sudo pacman -S 7zip
+ouch
+sudo pacman -S ouch
+env
+cls sh /home/maaru/.config/yazi/arch_setup.sh
+sudo sh /home/maaru/.config/yazi/arch_setup.sh
+sh /home/maaru/.config/yazi/check_dependencies.sh
+sh /home/maaru/.config/yazi/arch_setup.sh
+git commit -m "update"
+sh /home/maaru/.config/yazi/install.sh
+git rm --cached tags/
+git rm -r --cached tags/
+git rm -r --cached plugins/
+git rm -r --cached .image/
+git rm -r --cached ./.image/
+git push --set-upstream origin main --force
+git push --set-upstream origin main
+git commit -m "delete some dir"
+git commit -m "fixed git clone"
+git add .
+git commit -m "edit README.md"
+git push
+yay -S dotpusher
+sudo pacman -S python-argcomplete
+dotpusher -h
+dotpusher -p
 e
-python3 -u /home/maaru/.local/bin/wayland/screenshot/screenshot.py
+exit
 cls
-: 1753354285:0;\
-sleep 4\
-python3 -u /home/maaru/.local/bin/wayland/screenshot/screenshot.py
-: 1753357752:0;e
-: 1753357876:0;python3 -u /home/maaru/.local/bin/wayland/screenshot/screenshot.py
-: 1753358001:0;clear
-: 1753358015:0;python3 -u /home/maaru/.local/bin/wayland/screenshot/screenshot.py
-: 1753358026:0;e
-: 1753358037:0;clear
-: 1753358081:0;python3 -u /home/maaru/.local/bin/wayland/screenshot/screenshot.py
-: 1753358114:0;clear
-: 1753358126:0;e
-: 1753358131:0;dotpusher -p
+: 1754597241:0;git clone --depth 1 git@github.com:maarutan/dotfiles
+: 1754597255:0;dotpusher -p

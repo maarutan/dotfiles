@@ -1,10 +1,9 @@
 {
-  "layer":    "top",
   "position": "top", 
+  "layer":    "top",
   // "margin": "10px 50px 10px 50px",
-  // "margin": "0px 0px 0px 0px",
-  "margin": "0px 40px 0px 40px",
-  "corners": "10px",
+  "margin": "0px 0px 0px 0px",
+  // "margin": "0px 20px 0px 20px",
   
   
   // --- [ Choose the order of the modules ] ---
@@ -16,24 +15,39 @@
   ],
   
   "modules-center": [
-      "clock"
+     // "media-player-with-windows-title"
+     "windows-title"
+
   ],
   
   "modules-end": [
-      "tray",
+      "system-tray",
       "memory",
-      "language"
+      "language",
+      "clock"
   ],
 
 
   // --- [ Configure the modules ] ---
 
-  "logo": {
-    "type": "image", // "image" or "text"
-    "content": "i use   btw",
-    "image-path": "~/Pictures/Profile/user.jpg",
-    "image_size": 24
+  "media-player-with-windows-title": {
+    "if-empty-ghost-will-come-out": true,
+    "ghost-size": 200,
+    "single-active-player": true,
+    "background-path": "{assets}/empty/ghost.png"
   },
+
+  "windows-title": {
+    "icon_enable": true,
+    "truncate": true,
+    "truncate-size": 80,
+    "map": [
+      ["signal", "󰭻", "Signal"],
+      ["kitty", "󰄛", "Kitty"]
+    ],
+    "vertical-length": 3
+  },
+
 
   "language": {
     "number_letters":2,
@@ -42,28 +56,38 @@
 
   "clock": 12, // 24 or 12  or ( 242 - 2 its s.  2 == (s - second))
 
-  "memory": {
+  "memory_ram": {
     "icon": " ",
     "interval": 5,
     "format": "used" // used/total
   },
 
-  "tray": {
+  "system-tray": {
+    "tray-box": true,
     "icon-size": 24,
     "refresh-interval":1, 
     "spacing": 8
 
   },
 
+  "logo": {
+    "type": "image",        
+    "content": "i use  btw",
+    "image-path": "~/Pictures/Profile/user.jpg",
+    "image-size": 24
+  },
+
   "workspaces": {
-    "maximum-values": 5,
-    "magic-icons": "🪄✨",
-    "magic-view": true,
-    "enable-buttons_factory": true,
+    "max-visible-workspaces": 5,
+    "enable-buttons-factory": true,
     "numbering-workpieces":[
         "一", "二", "三", "四", "五",
         "六", "七", "八", "九", "〇"
-    ] 
+    ], 
+    "magic-workspace": {
+      "enable": true,
+      "icon": "✨"
+    }
   }
 }
 

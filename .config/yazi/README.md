@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><img src=".image/logo.png" width="200"/></td>
+    <td><img width="249" height="249" alt="Image" src="https://github.com/user-attachments/assets/74f1be51-e0a9-421b-b8cd-0beed7ebd575" /></td>
     <td>
       <strong>Yamoon</strong> — Cunstom Build <a href="https://github.com/sxyazi/yazi">Yazi</a><br/>
       build includes many popular plugins <br/>
@@ -24,17 +24,24 @@
 
 ## Dependencies
 
-`ouch` — for compressing and extracting files. <br />
-`mediainfo` — for retrieving information about multimedia files (images, videos), including their preview. <br />
-`trash-cli` — for restoring deleted files or directories, allowing undo of deletions. <br />
-`git` — for viewing the state of a Git repository and managing versions. <br />
-`ClipBoard` — for working with the clipboard in X11. <br />
-`wl-clipboard` — for working with the clipboard in Wayland. <br />
-`eza` — for displaying the file structure as a tree, an enhanced version of the `ls` command. <br />
+- `ouch` — for compressing and extracting files.
+- `mediainfo` — for retrieving information about multimedia files (images, videos), including their preview.
+- `trash-cli` — for restoring deleted files or directories, allowing undo of deletions.
+- `git` — for viewing the state of a Git repository and managing versions.
+- `xclip` / `xsel` — for working with the clipboard in X11 (Note: `ClipBoard` is not a valid package).
+- `wl-clipboard` — for working with the clipboard in Wayland.
+- `eza` — for displaying the file structure as a tree, an enhanced version of the `ls` command.
+- `resvg` — for converting SVG files to other image formats.
+- `pdftoppm` — for converting PDF files to images (part of `poppler-utils`).
+- `jq` — for parsing and manipulating JSON data.
+- `fd` — for finding files and directories (a faster alternative to `find`).
+- `p7zip` — for compressing and extracting `.7z` and other archive formats.
+
+---
 
 ## Example
 
-![image](.image/yazi.png)
+<img width="1662" height="881" alt="Image" src="https://github.com/user-attachments/assets/ebea2fc2-2a0e-4e1a-9472-08ab1ddf59a5" />
 
 ## Installation
 
@@ -50,6 +57,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/maarutan/yamoon/main/insta
 
 ```bash
 mv ~/.config/yazi ~/.config/yazi_"$(date +"%Y-%m-%d-%s")".bak
-git clone https://github.com/maarutan/yamoon.git ~/.config/yazi/
+git --depth 1 clone https://github.com/maarutan/yamoon.git ~/.config/yazi/
 sh ~/.config/yazi/install.sh --nobackup
 ```

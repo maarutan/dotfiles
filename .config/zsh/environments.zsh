@@ -44,9 +44,11 @@ autoload -Uz edit-command-line; zle -N edit-command-line
 export EDITOR="nvim"                # default EDITOR = nvim
 export VISUAL="nvim"                # devault VISUAL EDITOR = nvim
 export QT_QPA_PLATFORMTHEME=qt5ct   # support qt5 theme
+export HISTORY="$ZSH_CONFIG"/.history # where your history ???
+
 
 # History settings
-HISTFILE=$ZSH_CONFIG/".history"      # where your history ???
+HISTFILE="$HISTORY"                 # where your history ???
 HISTSIZE=100000                     # history size
 SAVEHIST=100000                     # max history save
 
@@ -70,7 +72,7 @@ export FZF_DEFAULT_OPTS="
     --preview-window=right:60%:wrap \
     --preview='
 if [[ -d {} ]]; then
-    eza --tree --level=3 --icons "{}"
+    eza --tree --level=3 --color --icons "{}"
 elif [[ {} =~ \.(jpg|jpeg|png|gif|bmp|webp|tiff)$ ]]; then
     chafa -s ${FZF_PREVIEW_COLUMNS:-"$((COLUMNS/2))"}x${FZF_PREVIEW_LINES:-"$((LINES/2))"} "{}"
 else

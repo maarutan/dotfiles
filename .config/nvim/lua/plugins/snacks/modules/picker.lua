@@ -1,6 +1,6 @@
 local border = require("core.options").border
 
-local function smoothScroll(key, delay, stop_int)
+local function smoothScroll(fn, delay, stop_int)
 	local timer = vim.loop.new_timer()
 	local counter = 0
 	timer:start(
@@ -8,21 +8,13 @@ local function smoothScroll(key, delay, stop_int)
 		delay,
 		vim.schedule_wrap(function()
 			counter = counter + 1
-			vim.cmd("normal! " .. key)
+			fn(counter)
 			if counter >= stop_int then
 				timer:stop()
 				timer:close()
 			end
 		end)
 	)
-end
-
-local function scroll_down(picker)
-	smoothScroll("j", 30, 3)
-end
-
-local function scroll_up(picker)
-	smoothScroll("k", 30, 3)
 end
 
 return {
@@ -58,21 +50,31 @@ return {
 		},
 	},
 
+	win = {
+		input = {
+			keys = {
+				["<C-d>"] = { "smooth_scroll_down", mode = { "n", "i" } },
+				["<C-u>"] = { "smooth_scroll_up", mode = { "n", "i" } },
+			},
+		},
+		list = {
+			keys = {
+				["<C-d>"] = { "smooth_scroll_down", mode = { "n", "i" } },
+				["<C-u>"] = { "smooth_scroll_up", mode = { "n", "i" } },
+			},
+		},
+	},
 	actions = {
-		scroll_down = scroll_down,
-		scroll_up = scroll_up,
-	},
+		smooth_scroll_down = function(picker)
+			smoothScroll(function()
+				Snacks.picker.actions.list_down(picker)
+			end, 30, 4)
+		end,
 
-	list = {
-		keys = {
-			["<C-d>"] = "scroll_down",
-			["<C-u>"] = "scroll_up",
-		},
-	},
-	input = {
-		keys = {
-			["<C-d>"] = "scroll_down",
-			["<C-u>"] = "scroll_up",
-		},
+		smooth_scroll_up = function(picker)
+			smoothScroll(function()
+				Snacks.picker.actions.list_up(picker)
+			end, 30, 4)
+		end,
 	},
 }

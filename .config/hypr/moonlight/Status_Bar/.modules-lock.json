@@ -1,6 +1,17 @@
 {
   "memory": {
-    "used": 6.3,
-    "free": 5.5
+    "used": 4.0,
+    "free": 8.7
+  },
+  "title-player": {
+    "progress": "0:00 / 0:01"
+  },
+  "title_player": {
+    "progress_line": "2:45 / 2:45"
+  },
+  "title_plyaer": {
+    "progress": "21:14 / 23:15",
+    "artist": "xuanlofi",
+    "title": "\u3010Lofi Music\u3011study/relax/morning/sleep/work"
   }
 }

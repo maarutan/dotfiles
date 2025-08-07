@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from pathlib import Path
 from subprocess import PIPE, check_output, Popen, run
 from shutil import which
@@ -42,7 +44,7 @@ def screenshot_and_edit():
 
     # Save screenshot to file
     now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    filename = screenshots_dir / f"screenshot_{now}.png"
+    filename = screenshots_dir / f"snapshot_{now}.png"
     with open(filename, "wb") as f:
         Popen(["grim", "-g", coords, "-"], stdout=f).wait()
 
