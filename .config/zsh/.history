@@ -6,7 +6,6 @@ imgcat
 imgcat https://i.scdn.co/image/ab67616d0000b273806c160566580d6335d1f16c
 python3 -u /home/maaru/Documents/desktop/moonlight/modules/status_bar/modules/title.py
 imgcat https://i.scdn.co/image/ab67616d0000b27345de6f708fe45e7db8d091db
-ex
 pkill -f telegram
 s
 sudo pacman -S bluetui
@@ -50,7 +49,6 @@ setsid ./start.sh
 while true; do\
 nmcli d w connect maaru\
 done
-Ñƒ£
 look
 lockctl
 localectl suspend
@@ -67,7 +65,6 @@ playerctl position 15- \
 playerctl position \
 
 git commit -m ""
-git commit
 nm-online
 ping google.com
 nmtui-edit
@@ -211,8 +208,6 @@ sudo rm -rf /tmp
 uv add py-spy
 py-spy main.py
 py-spy README.md
-py-spy
-py-spy top main.py
 py-spy top Dmain.py
 py-spy top
 eixt
@@ -223,7 +218,6 @@ nmcli d w list\
 nmcli d \
 done
 python3 -u /home/maaru/Documents/desktop/moonlight/test.py
-nvim
 playerctl previous
 playerctl next
 chromium
@@ -252,10 +246,7 @@ clear\
 nmcli d w connect maaru\
 nmcli d w list\
 done
-btop
 t
-python3 -u /home/maaru/Documents/desktop/moonlight/services/player.py
-clear
 python3 -u /home/maaru/Documents/desktop/moonlight/services/player_.py\
 n3 -u /home/maaru/Documents/desktop/moonlight/services/player_.py
 pythonthon3 -u /home/maaru/Documents/desktop/moonlight/services/player_.py
@@ -265,14 +256,8 @@ python3 -u /home/maaru/Documents/desktop/Ax-Shell/services/mpris.py
 reboot
 bluetui
 ka
-poweroff
 nmcli radio wifi off
 nmcli radio wifi on
-nmcli d w connect maaru
-
-srcvenv
-pkill -f python
-python3 -u /home/maaru/Documents/desktop/moonlight/main.py
 git remote add origin git@github.com:maarutan/moonvim
 git push --set-upstream origin main\
 
@@ -321,15 +306,89 @@ git push --set-upstream origin main --force
 git push --set-upstream origin main
 git commit -m "delete some dir"
 git commit -m "fixed git clone"
-git add .
 git commit -m "edit README.md"
-git push
 yay -S dotpusher
 sudo pacman -S python-argcomplete
 dotpusher -h
+git clone --depth 1 git@github.com:maarutan/dotfiles
 dotpusher -p
-e
+chafa
+chafa -h
+chafa -s 80x25 ~/.config/nvim/.pictures/maaru.jpg
+chafa -s 30x25 ~/.config/nvim/.pictures/maaru.jpg
+chafa -s 10x15 ~/.config/nvim/.pictures/maaru.jpg
+chafa -s 32x32 ~/.config/nvim/.pictures/maaru.jpg
+kitty -e bashE
+echo $TERM\
+
+viu -w 80 -h 25 path/to/image.jpg\
+
+echo $KITTY_INSTALLATION_DIR\
+
+git commit -m "update keybind"
+git commit --amend
+git push
+fpython3 -u /home/maaru/Documents/desktop/moonlight/services/player.py
+python3 -u /home/maaru/Documents/desktop/moonlight/services/player.py
+pkill -f nvim
+pkill -f firefox
+firefox
+uv add hashlib
+power off
+poweroff
+uv add cairosvg
+lsblk
+ex
+py-spy ./main.py
+py-spy python ./main.py
+py-spy $(python ./main.py)
+âƒ½¯ py-spy 300915
+py-spy 300915
+py-spy
+py-spy top main.py
+py-spy top 300915
+py-spy top --pid 300915\
+
+pacman
+python main.py
+py-spy top -- python main.py
+pkill -f python
+Ñƒ£
+; kitten select_word
+nvim sql
+nvim sql.sql
+git add .
+git commit
+figlet -f Calvin\ S Kitty terminal
+figlet -f Calvin\ S kitty terminal
+figlet -f Calvin\ S k itty terminal
+sudo pacman -Sy ttf-victor-mono-nerd
+ee
+clear
+figlet -f Calvin\ S font
+figlet -f Calvin\ S fonts
+figlet -f Calvin\ S cursor
+figlet -f Calvin\ S themes
+figlet -f Calvin\ S cliboard mode
+figlet -f Calvin\ S keybindings
+nmcli d w connect maaru
+asdf
+asd
+d
+dd
 exit
+figlet -f Calvin\ S misc
+btop
+kitty +list-fonts --psnames | grep VictorMono\
+
+kitty +list-fonts --psnames
+kitty +list-fonts --psnames | grep VictorMonoE
+swww img redback.png
 cls
-: 1754597241:0;git clone --depth 1 git@github.com:maarutan/dotfiles
-: 1754597255:0;dotpusher -p
+
+srcvenv
+e
+nvim
+python3 -u /home/maaru/Documents/desktop/moonlight/main.py
+: 1754686007:0;nvim
+: 1754686029:0;dotpusher -p

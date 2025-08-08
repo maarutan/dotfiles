@@ -15,8 +15,8 @@
   ],
   
   "modules-center": [
-     // "media-player-with-windows-title"
-     "windows-title"
+     "media-player-with-windows-title"
+     // "windows-title"
 
   ],
   
