@@ -311,7 +311,6 @@ yay -S dotpusher
 sudo pacman -S python-argcomplete
 dotpusher -h
 git clone --depth 1 git@github.com:maarutan/dotfiles
-dotpusher -p
 chafa
 chafa -h
 chafa -s 80x25 ~/.config/nvim/.pictures/maaru.jpg
@@ -327,7 +326,6 @@ echo $KITTY_INSTALLATION_DIR\
 
 git commit -m "update keybind"
 git commit --amend
-git push
 fpython3 -u /home/maaru/Documents/desktop/moonlight/services/player.py
 python3 -u /home/maaru/Documents/desktop/moonlight/services/player.py
 pkill -f nvim
@@ -384,11 +382,37 @@ kitty +list-fonts --psnames | grep VictorMono\
 kitty +list-fonts --psnames
 kitty +list-fonts --psnames | grep VictorMonoE
 swww img redback.png
-cls
-
 srcvenv
-e
-nvim
 python3 -u /home/maaru/Documents/desktop/moonlight/main.py
-: 1754686007:0;nvim
-: 1754686029:0;dotpusher -p
+nvim
+dotpusher -p
+
+k55lua /home/maaru/.config/yazi/plugcfg/theme_handler.lua
+ls /home/maaru/.config/yazi/themes.txt
+lua /home/maaru/.config/yazi/plugcfg/theme_handler.lua
+ya pkg add imsi32/yatline-gruvbox.yazi
+ya pkg add imsi32/yatline-gruvbox
+ya pkg add imsi32/yatline-catppuccin
+hyprland-share-picker
+sudo pacman -Sy hyprpicker
+hyprpicker | wl-copy
+figlet -f Calvin\ S initialization
+figlet -f Calvin\ S init
+figlet -f Calvin\ S loat
+figlet -f Calvin\ S load
+lua /home/maaru/.config/yazi/plugcfg/yatline.lua
+e
+git add init.lua
+git commit -m "edit | init.lua"
+git add package.toml
+git commit -m "added new plugins"
+git add .luarc.json
+git commit -m "init global var for lua"
+git add themes.txt
+git commit -m "current yazi theme"
+git add plugcfg/
+git commit -m "editing plugin config"
+git push
+cls
+: 1754692328:0;e
+: 1754692344:0;dotpusher -p
